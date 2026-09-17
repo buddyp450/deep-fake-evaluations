@@ -1,0 +1,19 @@
+{
+  "MuseTalk_commit": "0a89dec45a0192b824e3cf4daf96c239440c5ed8",
+  "Chatterbox_commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+  "Qwen3_TTS_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "video_generator": "MuseTalk 1.5; pretrained weights",
+  "cloned_voice_generator": "ResembleAI/chatterbox",
+  "designed_voice_generator": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "feature_model": "openai/whisper-tiny",
+  "vae": "stabilityai/sd-vae-ft-mse",
+  "local_changes": [
+    "OpenCV Haar face localization replaces separate pose-estimation dependency in custom runner",
+    "Face mask cached for still portraits",
+    "PyTorch weights_only=False used for trusted upstream legacy ResNet checkpoint",
+    "Generated speech tempo normalized to 30 seconds without pitch shifting"
+  ],
+  "model_training": "No models trained; pretrained inference only",
+  "detector_version": null,
+  "detector_runs": 0
+}

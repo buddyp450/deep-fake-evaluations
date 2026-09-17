@@ -1,0 +1,2382 @@
+{
+  "version": 1,
+  "scope": "90-case working test set; no detector runs performed",
+  "cases": [
+    {
+      "test_id": "T01",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T01_Genuine_Male_UK-Irish_Good.mp4",
+      "available": true,
+      "sha256": "879bac4a15b5cb0992f944c94c693758713ab3ce0728677ef19c48505265da96",
+      "duration_seconds": 30.0,
+      "source_person": "Tom McConn",
+      "source_record": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Genuine excerpt contains interviewer interjections. Clone reference uses original 342-349 seconds; separate from genuine excerpt. Mixed-speaker audio is a known limitation of the genuine case."
+      ]
+    },
+    {
+      "test_id": "T02",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T02_Genuine_Male_UK-Irish_Patchy.mp4",
+      "available": true,
+      "sha256": "c41df5b2a930e774b13af80e3b6b2546c77ae95c15e6df51c2c8aa3471b81a38",
+      "duration_seconds": 30.0,
+      "source_person": "Tom McConn",
+      "source_record": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Genuine excerpt contains interviewer interjections. Clone reference uses original 342-349 seconds; separate from genuine excerpt. Mixed-speaker audio is a known limitation of the genuine case."
+      ]
+    },
+    {
+      "test_id": "T03",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T03_Genuine_Male_UK-Irish_Degraded.mp4",
+      "available": true,
+      "sha256": "c693fded2f0669d99b591ff1f680a2c186f27007fe4929fd4dac85ff35f2da6b",
+      "duration_seconds": 30.0,
+      "source_person": "Tom McConn",
+      "source_record": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Genuine excerpt contains interviewer interjections. Clone reference uses original 342-349 seconds; separate from genuine excerpt. Mixed-speaker audio is a known limitation of the genuine case."
+      ]
+    },
+    {
+      "test_id": "T04",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T04_Genuine_Male_UK-British_Good.mp4",
+      "available": true,
+      "sha256": "689c5de5d447484c2fedf48b1ce1010c7981291620037bc77466885d49fa532a",
+      "duration_seconds": 30.0,
+      "source_person": "Simon (Wikitongues)",
+      "source_record": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Cumbrian regional English source includes discussion of dialect vocabulary; broad original UK-British label retained."
+      ]
+    },
+    {
+      "test_id": "T05",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T05_Genuine_Male_UK-British_Patchy.mp4",
+      "available": true,
+      "sha256": "7446d6f2ae4ab5b423bc70a3f46624252e1db64641c6cacae644218f5fdbf17f",
+      "duration_seconds": 30.0,
+      "source_person": "Simon (Wikitongues)",
+      "source_record": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Cumbrian regional English source includes discussion of dialect vocabulary; broad original UK-British label retained."
+      ]
+    },
+    {
+      "test_id": "T06",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T06_Genuine_Male_UK-British_Degraded.mp4",
+      "available": true,
+      "sha256": "ada303a8132b52ea221f9a970c61c3480988d241de7efadc1669f02b1930ed9a",
+      "duration_seconds": 30.0,
+      "source_person": "Simon (Wikitongues)",
+      "source_record": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Cumbrian regional English source includes discussion of dialect vocabulary; broad original UK-British label retained."
+      ]
+    },
+    {
+      "test_id": "T07",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T07_Genuine_Male_UK-Scottish_Good.mp4",
+      "available": true,
+      "sha256": "e5edc563e5385b99e45a11ffc14df78f1fb47f283ff8aea686880d17c0357f80",
+      "duration_seconds": 30.0,
+      "source_person": "David Campbell",
+      "source_record": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Excerpt moved to English storytelling at 290 seconds; earlier Doric passage excluded."
+      ]
+    },
+    {
+      "test_id": "T08",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T08_Genuine_Male_UK-Scottish_Patchy.mp4",
+      "available": true,
+      "sha256": "b5be6c023f6f9369db47a3be054b01a4a5f30ab7109ae091133b574e4ffc6ce3",
+      "duration_seconds": 30.0,
+      "source_person": "David Campbell",
+      "source_record": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Excerpt moved to English storytelling at 290 seconds; earlier Doric passage excluded."
+      ]
+    },
+    {
+      "test_id": "T09",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T09_Genuine_Male_UK-Scottish_Degraded.mp4",
+      "available": true,
+      "sha256": "740c706bf1184684c99064b38cc75d19a498eeb136a4f68a535e2db96bb18a28",
+      "duration_seconds": 30.0,
+      "source_person": "David Campbell",
+      "source_record": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Excerpt moved to English storytelling at 290 seconds; earlier Doric passage excluded."
+      ]
+    },
+    {
+      "test_id": "T10",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T10_Genuine_Male_American_Good.mp4",
+      "available": true,
+      "sha256": "1d4ba61b06ce8edd9574634fe2b55e41f053e058d8cf9ab0d6d073fd3208e7a1",
+      "duration_seconds": 30.0,
+      "source_person": "Jimmy Wales",
+      "source_record": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T11",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T11_Genuine_Male_American_Patchy.mp4",
+      "available": true,
+      "sha256": "f06d9e0b1b052f27294731420a6533ef2d971fc4496e41d22eaee0b60bde9587",
+      "duration_seconds": 30.0,
+      "source_person": "Jimmy Wales",
+      "source_record": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T12",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T12_Genuine_Male_American_Degraded.mp4",
+      "available": true,
+      "sha256": "4d5bf7dbf4aa9cbed8596f51f077bf33248c9580d9624c5ae8101efbfbfe4d70",
+      "duration_seconds": 30.0,
+      "source_person": "Jimmy Wales",
+      "source_record": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T13",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T13_Genuine_Male_Indian_Good.mp4",
+      "available": true,
+      "sha256": "fd231caf621c0e335166b383f707a9d4d85e833e80e1f23f19426e298d55b1b9",
+      "duration_seconds": 30.0,
+      "source_person": "Gautam John",
+      "source_record": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T14",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T14_Genuine_Male_Indian_Patchy.mp4",
+      "available": true,
+      "sha256": "c88d39605e5fe47451bc097671e4010b042da7c0a6fad399f51033c4bee59cb2",
+      "duration_seconds": 30.0,
+      "source_person": "Gautam John",
+      "source_record": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T15",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T15_Genuine_Male_Indian_Degraded.mp4",
+      "available": true,
+      "sha256": "0e88a06499c129933a458f585150e632907b7d2334a63e509d292047234e0fd4",
+      "duration_seconds": 30.0,
+      "source_person": "Gautam John",
+      "source_record": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T16",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T16_Genuine_Female_UK-Irish_Good.mp4",
+      "available": true,
+      "sha256": "28bd56cbdedf4ba84c6b9e991af2b829ebb019c986c331707de7f54247915fc7",
+      "duration_seconds": 30.0,
+      "source_person": "Mairead McGuinness",
+      "source_record": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T17",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T17_Genuine_Female_UK-Irish_Patchy.mp4",
+      "available": true,
+      "sha256": "6284ecfa3a8b7e6ef62175de7aaf64c97f92fd69685cf6177367f6dec1743c6f",
+      "duration_seconds": 30.0,
+      "source_person": "Mairead McGuinness",
+      "source_record": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T18",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T18_Genuine_Female_UK-Irish_Degraded.mp4",
+      "available": true,
+      "sha256": "7339691fd44ee71c6f391c763df47843599d2fe844efec22dcaa6051062b9e98",
+      "duration_seconds": 30.0,
+      "source_person": "Mairead McGuinness",
+      "source_record": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T19",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T19_Genuine_Female_UK-British_Good.mp4",
+      "available": true,
+      "sha256": "8eb37318e1c1e9d9ced457b3e307b4fdf02d6d49dbf50f09f277a8d06f968f2a",
+      "duration_seconds": 30.0,
+      "source_person": "Lucy Crompton-Reid",
+      "source_record": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T20",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T20_Genuine_Female_UK-British_Patchy.mp4",
+      "available": true,
+      "sha256": "5ca00cd5bf97e5cf4b762c710be9a5ce8932193962b30b78b345f3552a16323f",
+      "duration_seconds": 30.0,
+      "source_person": "Lucy Crompton-Reid",
+      "source_record": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T21",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T21_Genuine_Female_UK-British_Degraded.mp4",
+      "available": true,
+      "sha256": "c26f5202409bea7c4b5c70e139f220c022db9f50c7fc50a9cb8ab6a1e6e839fc",
+      "duration_seconds": 30.0,
+      "source_person": "Lucy Crompton-Reid",
+      "source_record": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T22",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T22_Genuine_Female_UK-Scottish_Good.mp4",
+      "available": true,
+      "sha256": "6b3c1f1f22951d414225219cc4fde74bbf58f3fed92e19bcc532f77a45332799",
+      "duration_seconds": 30.0,
+      "source_person": "Christine de Luca",
+      "source_record": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T23",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T23_Genuine_Female_UK-Scottish_Patchy.mp4",
+      "available": true,
+      "sha256": "3299e9768b1b5072eb609bea9955f0bacd65ff7ed9b005f124f73491cf043c35",
+      "duration_seconds": 30.0,
+      "source_person": "Christine de Luca",
+      "source_record": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T24",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T24_Genuine_Female_UK-Scottish_Degraded.mp4",
+      "available": true,
+      "sha256": "2d257433cd9a24ab4d55c2bf2bab5fc2a7c41c67142807f6257c8a0e70dd7b34",
+      "duration_seconds": 30.0,
+      "source_person": "Christine de Luca",
+      "source_record": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T25",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T25_Genuine_Female_American_Good.mp4",
+      "available": true,
+      "sha256": "87381f7eb04876a3831cd2d7598729a789261abc48e8c5e2296d676a0f23d121",
+      "duration_seconds": 30.0,
+      "source_person": "Katherine Maher",
+      "source_record": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T26",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T26_Genuine_Female_American_Patchy.mp4",
+      "available": true,
+      "sha256": "a0781d07a254f54df02350a7527666f13f1f3671c57491d5c234cf9a5f18dfae",
+      "duration_seconds": 30.0,
+      "source_person": "Katherine Maher",
+      "source_record": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T27",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T27_Genuine_Female_American_Degraded.mp4",
+      "available": true,
+      "sha256": "6731579411b8230f5f4d14ce5e7ac2cfa2c7eb75693ea45f372ef07802daae81",
+      "duration_seconds": 30.0,
+      "source_person": "Katherine Maher",
+      "source_record": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T28",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T28_Genuine_Female_Indian_Good.mp4",
+      "available": true,
+      "sha256": "bb165c0ef359c7ec239ee6330bdec6969cf67ece830a0d8f00a51acc2a969f1f",
+      "duration_seconds": 30.0,
+      "source_person": "Netha Hussain",
+      "source_record": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T29",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T29_Genuine_Female_Indian_Patchy.mp4",
+      "available": true,
+      "sha256": "2253e5964eeccc7cfa37dd32303b70435ae59db2ae755e9ff6d185e4a678b008",
+      "duration_seconds": 30.0,
+      "source_person": "Netha Hussain",
+      "source_record": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T30",
+      "identity_type": "Genuine",
+      "source_identity_label": "Genuine",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Not fake"
+      ],
+      "file": "videos/T30_Genuine_Female_Indian_Degraded.mp4",
+      "available": true,
+      "sha256": "706ec6db84651eca0809296d72374da086966ea97a34825d4ee65c09e00a8f41",
+      "duration_seconds": 30.0,
+      "source_person": "Netha Hussain",
+      "source_record": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T31",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T31_Cloned_Male_UK-Irish_Good.mp4",
+      "available": true,
+      "sha256": "6c4af4fafa9689779e8bcf85e9a61e0d6b6f9f8b3c2b0cae5e6bf66a03b0889f",
+      "duration_seconds": 30.0,
+      "source_person": "Tom McConn",
+      "source_record": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Genuine excerpt contains interviewer interjections. Clone reference uses original 342-349 seconds; separate from genuine excerpt. Mixed-speaker audio is a known limitation of the genuine case."
+      ]
+    },
+    {
+      "test_id": "T32",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T32_Cloned_Male_UK-Irish_Patchy.mp4",
+      "available": true,
+      "sha256": "16166f8cf4ffd0b6f835d145b52f3182c06df350462287d14a4dabf0d9ba9b90",
+      "duration_seconds": 30.0,
+      "source_person": "Tom McConn",
+      "source_record": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Genuine excerpt contains interviewer interjections. Clone reference uses original 342-349 seconds; separate from genuine excerpt. Mixed-speaker audio is a known limitation of the genuine case."
+      ]
+    },
+    {
+      "test_id": "T33",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T33_Cloned_Male_UK-Irish_Degraded.mp4",
+      "available": true,
+      "sha256": "6551e40fc1d3d77ee2e95c7f79142ddf327dc28030d864b1c0e6f0768358b5a1",
+      "duration_seconds": 30.0,
+      "source_person": "Tom McConn",
+      "source_record": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Genuine excerpt contains interviewer interjections. Clone reference uses original 342-349 seconds; separate from genuine excerpt. Mixed-speaker audio is a known limitation of the genuine case."
+      ]
+    },
+    {
+      "test_id": "T34",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T34_Cloned_Male_UK-British_Good.mp4",
+      "available": true,
+      "sha256": "fe484f0f085bd635f07e2e26150c11b885de0399c87a08f4a86aadb1b0deaa2f",
+      "duration_seconds": 30.0,
+      "source_person": "Simon (Wikitongues)",
+      "source_record": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Cumbrian regional English source includes discussion of dialect vocabulary; broad original UK-British label retained."
+      ]
+    },
+    {
+      "test_id": "T35",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T35_Cloned_Male_UK-British_Patchy.mp4",
+      "available": true,
+      "sha256": "0a6e1594244172fc2d79ec93aa3658f8b67c231d3c76684a4040049c1ddcadc5",
+      "duration_seconds": 30.0,
+      "source_person": "Simon (Wikitongues)",
+      "source_record": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Cumbrian regional English source includes discussion of dialect vocabulary; broad original UK-British label retained."
+      ]
+    },
+    {
+      "test_id": "T36",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T36_Cloned_Male_UK-British_Degraded.mp4",
+      "available": true,
+      "sha256": "a4aa54439755ae5ac6a6c06a8db7b8371c9c00817c1da3c0b68c7aa3965296b6",
+      "duration_seconds": 30.0,
+      "source_person": "Simon (Wikitongues)",
+      "source_record": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Cumbrian regional English source includes discussion of dialect vocabulary; broad original UK-British label retained."
+      ]
+    },
+    {
+      "test_id": "T37",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T37_Cloned_Male_UK-Scottish_Good.mp4",
+      "available": true,
+      "sha256": "a2488d1f7e0dbc37fa9a5f1e771d6ffaf50483aef86f151c928a27772af5bf4a",
+      "duration_seconds": 30.0,
+      "source_person": "David Campbell",
+      "source_record": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Excerpt moved to English storytelling at 290 seconds; earlier Doric passage excluded."
+      ]
+    },
+    {
+      "test_id": "T38",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T38_Cloned_Male_UK-Scottish_Patchy.mp4",
+      "available": true,
+      "sha256": "4c4a545cd32f955bd20093b9563fa98e244ee278f5912ce5d178c7b1fee1331e",
+      "duration_seconds": 30.0,
+      "source_person": "David Campbell",
+      "source_record": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Excerpt moved to English storytelling at 290 seconds; earlier Doric passage excluded."
+      ]
+    },
+    {
+      "test_id": "T39",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T39_Cloned_Male_UK-Scottish_Degraded.mp4",
+      "available": true,
+      "sha256": "bcb3a1b902b6c5e7d1262410c6969aa2f0e0e247ab576c6970731ae52b39235c",
+      "duration_seconds": 30.0,
+      "source_person": "David Campbell",
+      "source_record": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "detector_status": "Not run",
+      "notes": [
+        "Excerpt moved to English storytelling at 290 seconds; earlier Doric passage excluded."
+      ]
+    },
+    {
+      "test_id": "T40",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T40_Cloned_Male_American_Good.mp4",
+      "available": true,
+      "sha256": "aeeff4734497f3ac47d8baa61780a2761cf81ea1369f672e2fee5f2e0ef0ac16",
+      "duration_seconds": 30.0,
+      "source_person": "Jimmy Wales",
+      "source_record": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T41",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T41_Cloned_Male_American_Patchy.mp4",
+      "available": true,
+      "sha256": "9dcdafc41c586943db200a8452401ec86e9fe8c0ca6e173e690d9c2e68bc5f28",
+      "duration_seconds": 30.0,
+      "source_person": "Jimmy Wales",
+      "source_record": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T42",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T42_Cloned_Male_American_Degraded.mp4",
+      "available": true,
+      "sha256": "ef7b118d11e409a05f6d2a494c5a9e33cc28d69641f82da8cb3e9bc6c92fccee",
+      "duration_seconds": 30.0,
+      "source_person": "Jimmy Wales",
+      "source_record": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T43",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T43_Cloned_Male_Indian_Good.mp4",
+      "available": true,
+      "sha256": "26b7e9d3da35ec4f8e47fe48e733f4640450530840842ee166f8182643c4ad0d",
+      "duration_seconds": 30.0,
+      "source_person": "Gautam John",
+      "source_record": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T44",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T44_Cloned_Male_Indian_Patchy.mp4",
+      "available": true,
+      "sha256": "e40c75ab30ab5b2e12639763516a89e0446a8f52dcba772992a8ebd46e1cb8db",
+      "duration_seconds": 30.0,
+      "source_person": "Gautam John",
+      "source_record": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T45",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T45_Cloned_Male_Indian_Degraded.mp4",
+      "available": true,
+      "sha256": "8f6be23c05320e454a75d0cce7fef318a2be221ca8af6b844d08ad4bf6b41d8b",
+      "duration_seconds": 30.0,
+      "source_person": "Gautam John",
+      "source_record": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T46",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T46_Cloned_Female_UK-Irish_Good.mp4",
+      "available": true,
+      "sha256": "a445d814bc888d423dfb3471687970c598beed9448700a2b935bbd3aa5c1b1fc",
+      "duration_seconds": 30.0,
+      "source_person": "Mairead McGuinness",
+      "source_record": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T47",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T47_Cloned_Female_UK-Irish_Patchy.mp4",
+      "available": true,
+      "sha256": "c69c795cc3f65e07a400f107c27c40a5c1834bac5318fa7e1fae3f30b9e2a00a",
+      "duration_seconds": 30.0,
+      "source_person": "Mairead McGuinness",
+      "source_record": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T48",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T48_Cloned_Female_UK-Irish_Degraded.mp4",
+      "available": true,
+      "sha256": "50a13a4b656dc42eb092ceda79bac7c5233c1c68ee797d1441aa088fc7d560ca",
+      "duration_seconds": 30.0,
+      "source_person": "Mairead McGuinness",
+      "source_record": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T49",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T49_Cloned_Female_UK-British_Good.mp4",
+      "available": true,
+      "sha256": "3e9342228f388274a5580c9b22396d2bcfc8f5131675bc613b26bc4c8df1c2ca",
+      "duration_seconds": 30.0,
+      "source_person": "Lucy Crompton-Reid",
+      "source_record": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T50",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T50_Cloned_Female_UK-British_Patchy.mp4",
+      "available": true,
+      "sha256": "47b4148a4cc1686a16e2c4f87fa9c5d8b4fa1b41b619446c7c4fea74eb5c8688",
+      "duration_seconds": 30.0,
+      "source_person": "Lucy Crompton-Reid",
+      "source_record": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T51",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T51_Cloned_Female_UK-British_Degraded.mp4",
+      "available": true,
+      "sha256": "e44413f8501791ac36ac146471709b8bd966b70ecc36f43e0a7469dee3e2d17c",
+      "duration_seconds": 30.0,
+      "source_person": "Lucy Crompton-Reid",
+      "source_record": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T52",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T52_Cloned_Female_UK-Scottish_Good.mp4",
+      "available": true,
+      "sha256": "a604bfe6f8fccfab1fcb913c90812807714ae278bdeaa3626c5717fee3de95df",
+      "duration_seconds": 30.0,
+      "source_person": "Christine de Luca",
+      "source_record": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T53",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T53_Cloned_Female_UK-Scottish_Patchy.mp4",
+      "available": true,
+      "sha256": "d86b82c6fbbfda597c8a18b7e1110c4f1bcefbfadeea454479a7b353a8d23757",
+      "duration_seconds": 30.0,
+      "source_person": "Christine de Luca",
+      "source_record": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T54",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T54_Cloned_Female_UK-Scottish_Degraded.mp4",
+      "available": true,
+      "sha256": "23a7e736ada162297d463f98b6a98e0d3c455297ddb6b9b0db4af5c0fd521ca0",
+      "duration_seconds": 30.0,
+      "source_person": "Christine de Luca",
+      "source_record": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T55",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T55_Cloned_Female_American_Good.mp4",
+      "available": true,
+      "sha256": "a0efb7766ea1cff877046456e70a15136307b0cd34c323bd9eb3b686514911ef",
+      "duration_seconds": 30.0,
+      "source_person": "Katherine Maher",
+      "source_record": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T56",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T56_Cloned_Female_American_Patchy.mp4",
+      "available": true,
+      "sha256": "edc6910309b55ebf0a60169ce6f10cfef53cb1e5c3232f42d66620f08bfe1d48",
+      "duration_seconds": 30.0,
+      "source_person": "Katherine Maher",
+      "source_record": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T57",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T57_Cloned_Female_American_Degraded.mp4",
+      "available": true,
+      "sha256": "b12eb8568c64389ba39b39c45770e90a4a91525dba3b7d43046720655c137a63",
+      "duration_seconds": 30.0,
+      "source_person": "Katherine Maher",
+      "source_record": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T58",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T58_Cloned_Female_Indian_Good.mp4",
+      "available": true,
+      "sha256": "2ee7b27ffc55378d4b7fced978333fd6f71b7684d41878453d99546110939df9",
+      "duration_seconds": 30.0,
+      "source_person": "Netha Hussain",
+      "source_record": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T59",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T59_Cloned_Female_Indian_Patchy.mp4",
+      "available": true,
+      "sha256": "b66f3cd3dcb02350fe70d29c69fe6c9dc13f214e91cabfcefab50810ac6b017e",
+      "duration_seconds": 30.0,
+      "source_person": "Netha Hussain",
+      "source_record": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T60",
+      "identity_type": "Cloned",
+      "source_identity_label": "Cloned",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T60_Cloned_Female_Indian_Degraded.mp4",
+      "available": true,
+      "sha256": "ce46503ef31851b087cb28f51c941bf6c890c3112600689c3318c1e6c7f7c690",
+      "duration_seconds": 30.0,
+      "source_person": "Netha Hussain",
+      "source_record": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "detector_status": "Not run",
+      "notes": []
+    },
+    {
+      "test_id": "T61",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T61_Synthetic_Male_UK-Irish_Good.mp4",
+      "available": true,
+      "sha256": "9a230e5e77e251c9fd900a988ae047730d589efe4d2335be407069e3a9b8209a",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T62",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T62_Synthetic_Male_UK-Irish_Patchy.mp4",
+      "available": true,
+      "sha256": "1dedea67d8d634c20a9ae7186116af09bf45aa2194c00d3f630173f50c6cd902",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T63",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T63_Synthetic_Male_UK-Irish_Degraded.mp4",
+      "available": true,
+      "sha256": "2cab8b799113e9d59c5523cb9ad782bad1718cd48028f6c9096438e28be52cdb",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T64",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T64_Synthetic_Male_UK-British_Good.mp4",
+      "available": true,
+      "sha256": "08cb7ab30a318f7a08002f8a0fbced661b39378495d8cdbfea33bf478e5de056",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T65",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T65_Synthetic_Male_UK-British_Patchy.mp4",
+      "available": true,
+      "sha256": "c71f702e74a5a368e14557c948b4ad30817e4c72c3b43f136a50fac1df7c6412",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T66",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T66_Synthetic_Male_UK-British_Degraded.mp4",
+      "available": true,
+      "sha256": "0e048275754ebecc1a6b0441983ae4f7083ceaf9ade76b95e717b3c468aaa7fb",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T67",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T67_Synthetic_Male_UK-Scottish_Good.mp4",
+      "available": true,
+      "sha256": "6b46fdbe5e44caf36e88bd98a08a07f96734bcec853049f847343990041503c8",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T68",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T68_Synthetic_Male_UK-Scottish_Patchy.mp4",
+      "available": true,
+      "sha256": "b8e1ffaa8f79aa21397c980f808ac54eeb589e9304c9cf26542c8aa1acaa60ff",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T69",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T69_Synthetic_Male_UK-Scottish_Degraded.mp4",
+      "available": true,
+      "sha256": "0dcd09ffc59cb5da4e98e4d93afe0eb1ad376b42ae0e8959ed1ad1d20afafe4a",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T70",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T70_Synthetic_Male_American_Good.mp4",
+      "available": true,
+      "sha256": "372c6b53b89f95591f1f66cdc44b6184fecf589786ea62c9f50573b31917fe0e",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T71",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T71_Synthetic_Male_American_Patchy.mp4",
+      "available": true,
+      "sha256": "9e0d0caee41c99c58779a3330a91523abe9cd37e243919682fbdab0aa4a9a03e",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T72",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T72_Synthetic_Male_American_Degraded.mp4",
+      "available": true,
+      "sha256": "b48a130031a342015e467bc50e0a73b23317f29a3ea50a03e4a131953267d978",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T73",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T73_Synthetic_Male_Indian_Good.mp4",
+      "available": true,
+      "sha256": "3b2e1df27f975c8b74b3d1174d399f1e3e3bf6e9487f185629d6e81d52ef95d8",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T74",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T74_Synthetic_Male_Indian_Patchy.mp4",
+      "available": true,
+      "sha256": "1f7a983ca18d49d03db9f92352131f8375168e7eb6bdc5372d69542bc78afcf8",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T75",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Male",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T75_Synthetic_Male_Indian_Degraded.mp4",
+      "available": true,
+      "sha256": "1cb4880ca07e658eb16a21b418645925eed5d3fa35c107e518d5bf807c2403e1",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T76",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T76_Synthetic_Female_UK-Irish_Good.mp4",
+      "available": true,
+      "sha256": "695df78859350b0a64e07254b81b9479b877ea2b4ecd8b378727fc44cdac3c91",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T77",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T77_Synthetic_Female_UK-Irish_Patchy.mp4",
+      "available": true,
+      "sha256": "bf8507650a7a9cb5425815bbbc524c3568c80d3b8b20bdd3a93d2fbc001ec9a9",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T78",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-Irish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T78_Synthetic_Female_UK-Irish_Degraded.mp4",
+      "available": true,
+      "sha256": "9cf112bcd7bc66ceda0fd10c8d01b8f2215a97ac9b8f6e4babfb9e3df105ff2c",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T79",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T79_Synthetic_Female_UK-British_Good.mp4",
+      "available": true,
+      "sha256": "f908239d14f69d56aadb5f068945df1b202908a98066764bc997497c0ce7d2fe",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T80",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T80_Synthetic_Female_UK-British_Patchy.mp4",
+      "available": true,
+      "sha256": "614ab76fd6fb1ec02eb08f935f2743ff11dff098d821f1fb97a03699d676d411",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T81",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-British",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T81_Synthetic_Female_UK-British_Degraded.mp4",
+      "available": true,
+      "sha256": "f1accb93fd7e1c85adf896882d8ee7d6857c99fedffea1db881d686481a91166",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T82",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T82_Synthetic_Female_UK-Scottish_Good.mp4",
+      "available": true,
+      "sha256": "ee62ec14f1afde23e3cc312bbb2a76b024896960d754821ef503d62860d2c6ae",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T83",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T83_Synthetic_Female_UK-Scottish_Patchy.mp4",
+      "available": true,
+      "sha256": "7f20d673aa331e92eb32dafaebb0e0b2671ee2ae07064e4ac77f908f3db1be34",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T84",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "UK-Scottish",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T84_Synthetic_Female_UK-Scottish_Degraded.mp4",
+      "available": true,
+      "sha256": "a943824c06b12343c76d49f77ca51f9da6432d421dfc9bfcbaf35176d4b56cdc",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T85",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T85_Synthetic_Female_American_Good.mp4",
+      "available": true,
+      "sha256": "0e26904d4fe6ff227dc0f1d8c916a495f9c6ea6e1a060517596bd2f5d58b03f2",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T86",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T86_Synthetic_Female_American_Patchy.mp4",
+      "available": true,
+      "sha256": "0e6670ae01bf64988f4668d1f780e5f5663b0a97ad71862f758e7d22d7ff407a",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T87",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "American",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T87_Synthetic_Female_American_Degraded.mp4",
+      "available": true,
+      "sha256": "683d568ddf5e14143462451d3813613aca06bda768b5f7b62e67089bb28dc12d",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T88",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Good",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T88_Synthetic_Female_Indian_Good.mp4",
+      "available": true,
+      "sha256": "553f020946e47e1ec8dd0613bf1f10818175e573c4adb7fca8b89273fb086b63",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T89",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Patchy",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T89_Synthetic_Female_Indian_Patchy.mp4",
+      "available": true,
+      "sha256": "bed7789a5f83b9238001ebc9ebede08199a2eafa0bf761938e09679116bc7933",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    },
+    {
+      "test_id": "T90",
+      "identity_type": "Fully synthetic",
+      "source_identity_label": "Deepfake",
+      "gender": "Female",
+      "accent_target": "Indian",
+      "accent_review": "Pending human listening review",
+      "profile": "Degraded",
+      "expected": [
+        "Fake",
+        "Inconclusive"
+      ],
+      "file": "videos/T90_Synthetic_Female_Indian_Degraded.mp4",
+      "available": true,
+      "sha256": "59e14933b5f2b0f0f8a5d696f2934f948f20a011f9a9ebfcbf2ad77346850645",
+      "duration_seconds": 30.0,
+      "source_person": null,
+      "source_record": null,
+      "detector_status": "Not run",
+      "notes": [
+        "Invented still portrait with generated mouth movement and designed voice; no natural head/body motion."
+      ]
+    }
+  ]
+}

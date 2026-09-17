@@ -1,0 +1,397 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "155157334": {
+        "pageid": 155157334,
+        "ns": 6,
+        "title": "File:Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference.mpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 785647616,
+            "width": 1920,
+            "height": 1080,
+            "duration": 0.26693360026693363,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155157334",
+            "sha1": "b643e087964bed0773f7dcdf74548a335ca31487",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-14 00:05:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Celtic Knot Conference 2024 videos",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-09-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:OifigeachWMIE&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:OifigeachWMIE (page does not exist)\">OifigeachWMIE</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "75872331": {
+        "pageid": 75872331,
+        "ns": 6,
+        "title": "File:Jimmy Wales interview for WikipediaDay 2019.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 136352207,
+            "width": 1920,
+            "height": 1080,
+            "duration": 1208.323,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Jimmy_Wales_interview_for_WikipediaDay_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75872331",
+            "sha1": "8b64828cae42c32904e610cd309fa38f5a772f45",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2019-01-15 17:55:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Jimmy Wales interview for WikipediaDay 2019",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Wikipedia Day 2019|Self-published work|Supported by Wikimedia UK|Videos of Jimmy Wales|Files with coordinates missing SDC location of creation (51\u00b0 N, 1\u00b0 W)|Wikimedia UK videos",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "51.505325",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-0.100679",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Jimmy Wales interview for WikipediaDay 2019",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-01-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jwslubbock\" title=\"User:Jwslubbock\">Jwslubbock</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "74239400": {
+        "pageid": 74239400,
+        "ns": 6,
+        "title": "File:Katherine Maher Access Interview Cropped.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4678077,
+            "width": 854,
+            "height": 480,
+            "duration": 17.240000000000002,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Katherine_Maher_Access_Interview_Cropped.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Katherine_Maher_Access_Interview_Cropped.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=74239400",
+            "sha1": "354226bae9c814b052dccf8fdb450b6cc75c2fc0",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-11-08 16:20:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Katherine Maher Access Interview Cropped",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Katherine Maher in 2018|Videos of Katherine Maher",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Katherine Maher Access Interview Cropped. Original Source:\n</p>\n<a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm\">https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-11-08",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Wamda",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "31402268": {
+        "pageid": 31402268,
+        "ns": 6,
+        "title": "File:McGuinness, Mairead (en).webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 57181423,
+            "width": 1920,
+            "height": 1080,
+            "duration": 63.08,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/McGuinness%2C_Mairead_%28en%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=31402268",
+            "sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-03-01 23:57:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "McGuinness, Mairead (en)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Mairead McGuinness|Personality rights warning|License migration redundant|Self-published work|Supported by Wikimedia Deutschland|Supported by Wikimedia \u00d6sterreich|WIKI loves parliaments/Member of the European Parliament|Supported by Wikimedia UK|WIKI loves parliaments/European Parliament 2014|WIKI loves parliaments/European Parliament 2014/Videos",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Video Project in the European Parliament 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-02-",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:80686\" title=\"User:80686\">Manuel Schneider</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table align=\"center\" style=\"width:100%; background-color:var(--background-color-neutral-subtle, #f8f8f8); color: inherit; border:2px solid #e0e0e0; padding:2px;\">\n<tbody><tr align=\"left\">\n<td><span class=\"skin-invert-image\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:WLP-logo-right.svg\" class=\"mw-file-description\" title=\"Europaparlament\"><img alt=\"Europaparlament\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WLP-logo-right.svg/330px-WLP-logo-right.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"300\" height=\"120\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WLP-logo-right.svg/960px-WLP-logo-right.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1920\" data-file-height=\"768\"></a></span></td>\n<td align=\"left\"> \n<div style=\"font-family:Linux Libertine G, Garamond, Palatino, serif; font-size:2.2em; font-weight:bolder; letter-spacing:0.1em;\">European Parliament 2014</div>\n<p>3.\u20137. February 2014, Strasbourg<br>This photo has been created within the project \"<a href=\"//commons.wikimedia.org/wiki/Commons:Wiki_loves_parliaments\" class=\"mw-redirect\" title=\"Commons:Wiki loves parliaments\">WIKI loves parliaments /  European Parliament</a>\".\n</p>\n</td>\n<td align=\"right\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Europarl_logo.svg\" class=\"mw-file-description\" title=\"Wikimedia\"><img alt=\"Wikimedia\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Europarl_logo.svg/250px-Europarl_logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"160\" height=\"94\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Europarl_logo.svg/330px-Europarl_logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"374\" data-file-height=\"220\"></a></span></td>\n</tr>\n</tbody></table>\n<table align=\"center\" style=\"width:100%; background-color:var(--background-color-neutral-subtle, #f8f8f8); color: inherit; border:2px solid #e0e0e0; padding:2px;\">\n<tbody><tr align=\"left\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Help-browser.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Help-browser.svg/120px-Help-browser.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"100\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Help-browser.svg/250px-Help-browser.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></a></span></td>\n<td align=\"left\"> \n<div style=\"font-family:Linux Libertine G, Garamond, Palatino, serif; font-size:2.2em; font-variant: small-caps; font-weight:bolder; letter-spacing:0.1em;\">Usage and Help</div>\n<p><br>\nIf you have any questions concerning this picture or how to use it, feel free to contact<br><a href=\"//commons.wikimedia.org/wiki/Commons:Help_desk\" title=\"Commons:Help desk\">Commons:Help desk</a>\n</p>\n</td>\n<td align=\"right\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Help-browser.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Help-browser.svg/120px-Help-browser.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"100\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Help-browser.svg/250px-Help-browser.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></a></span></td>\n</tr>\n</tbody></table>\n<table style=\"width:100%; clear:both; margin:0.5em auto; border-spacing:8px; background-color:var(--background-color-neutral-subtle,#f7f8ff); border:2px solid #8888aa;color: inherit;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate restrictiontemplate restriction-personality\">\n<tbody><tr>\n<td style=\"border:none; width:64px;\"><figure class=\"mw-halign-center\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Commons:Non-copyright_restrictions\" title=\"Personality rights\"><img alt=\"Personality rights\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Dialog-warning-yellow.svg/120px-Dialog-warning-yellow.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Dialog-warning-yellow.svg/250px-Dialog-warning-yellow.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></a><figcaption>Personality rights</figcaption></figure>\n</td>\n<td style=\"border:none;\"><span class=\"commons-template-name\" style=\"display:none\" id=\"commons-template-personality-rights\">Personality rights</span><div style=\"font-size:120%;font-weight:bold;\"><a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Photographs_of_identifiable_people\" title=\"Special:MyLanguage/Commons:Photographs of identifiable people\">Personality rights warning</a></div>Although this work is <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">freely licensed</a> or in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"en:Public domain\">public domain</a>, the <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Photographs_of_identifiable_persons\" title=\"Special:MyLanguage/Commons:Photographs of identifiable persons\">person(s) shown</a> may have <a href=\"https://en.wikipedia.org/wiki/personality_rights\" class=\"extiw\" title=\"en:personality rights\">rights</a> that <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Country_specific_consent_requirements\" title=\"Special:MyLanguage/Commons:Country specific consent requirements\">legally restrict certain re-uses</a> unless those depicted consent to such uses. In these cases, a <a href=\"https://en.wikipedia.org/wiki/model_release\" class=\"extiw\" title=\"en:model release\">model release</a> or other evidence of consent could protect you from infringement claims. Though not obliged to do so, the uploader may be able to help you to obtain such evidence. See our <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:General_disclaimer\" title=\"Special:MyLanguage/Commons:General disclaimer\">general disclaimer</a> for more information.\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "personality",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

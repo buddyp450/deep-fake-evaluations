@@ -1,0 +1,84 @@
+[
+  {
+    "gender": "Male",
+    "accent": "UK-Irish",
+    "source": "tom_mcconn_original.webm",
+    "person": "Tom McConn",
+    "start": 10,
+    "test_start": 1,
+    "voice_reference_start": 342,
+    "voice_reference_duration": 7
+  },
+  {
+    "gender": "Male",
+    "accent": "UK-British",
+    "source": "simon_original.webm",
+    "person": "Simon (Wikitongues)",
+    "start": 10,
+    "test_start": 4
+  },
+  {
+    "gender": "Male",
+    "accent": "UK-Scottish",
+    "source": "david_campbell_original.webm",
+    "person": "David Campbell",
+    "start": 290,
+    "test_start": 7
+  },
+  {
+    "gender": "Male",
+    "accent": "American",
+    "source": "jimmy_wales_original.webm",
+    "person": "Jimmy Wales",
+    "start": 10,
+    "test_start": 10
+  },
+  {
+    "gender": "Male",
+    "accent": "Indian",
+    "source": "gautam_john_original.webm",
+    "person": "Gautam John",
+    "start": 10,
+    "test_start": 13
+  },
+  {
+    "gender": "Female",
+    "accent": "UK-Irish",
+    "source": "mairead_mcguinness_original.webm",
+    "person": "Mairead McGuinness",
+    "start": 10,
+    "test_start": 16
+  },
+  {
+    "gender": "Female",
+    "accent": "UK-British",
+    "source": "celtic_knot_welcome_original.mpg",
+    "person": "Lucy Crompton-Reid",
+    "start": 1050,
+    "test_start": 19
+  },
+  {
+    "gender": "Female",
+    "accent": "UK-Scottish",
+    "source": "christine_deluca_original.webm",
+    "person": "Christine de Luca",
+    "start": 10,
+    "test_start": 22
+  },
+  {
+    "gender": "Female",
+    "accent": "American",
+    "source": "katherine_maher_full_original.webm",
+    "person": "Katherine Maher",
+    "start": 30,
+    "test_start": 25
+  },
+  {
+    "gender": "Female",
+    "accent": "Indian",
+    "source": "netha_hussain_original.ogv",
+    "person": "Netha Hussain",
+    "start": 15,
+    "test_start": 28
+  }
+]

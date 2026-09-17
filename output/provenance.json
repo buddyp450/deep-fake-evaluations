@@ -1,0 +1,1788 @@
+{
+  "schema_version": 1,
+  "description": "Historical production records for the delivered candidates; not proof of detector outcomes or subject consent",
+  "software": {
+    "MuseTalk_commit": "0a89dec45a0192b824e3cf4daf96c239440c5ed8",
+    "Chatterbox_commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+    "Qwen3_TTS_commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "video_generator": "MuseTalk 1.5; pretrained weights",
+    "cloned_voice_generator": "ResembleAI/chatterbox",
+    "designed_voice_generator": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "feature_model": "openai/whisper-tiny",
+    "vae": "stabilityai/sd-vae-ft-mse",
+    "local_changes": [
+      "OpenCV Haar face localization replaces separate pose-estimation dependency in custom runner",
+      "Face mask cached for still portraits",
+      "PyTorch weights_only=False used for trusted upstream legacy ResNet checkpoint",
+      "Generated speech tempo normalized to 30 seconds without pitch shifting"
+    ],
+    "model_training": "No models trained; pretrained inference only",
+    "detector_version": null,
+    "detector_runs": 0
+  },
+  "identities": [
+    {
+      "gender_label": "Male",
+      "accent_target": "UK-Irish",
+      "genuine_cases": "T01-T03",
+      "cloned_cases": "T31-T33",
+      "fully_synthetic_cases": "T61-T63",
+      "real_person": "Tom McConn",
+      "original_file": "assets/sources/tom_mcconn_original.webm",
+      "original_source": {
+        "title": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+        "author": "Richard Arthur Norton",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be"
+      },
+      "original_sha256": "76525d5a804888f10267fea30729855841bc807c98af5cab863a32e6ead74cad",
+      "genuine_excerpt_seconds": [
+        10,
+        40
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Male_UK-Irish.wav",
+        "source_seconds": [
+          342,
+          349
+        ],
+        "sha256": "95ef1c16bc7929116b32d926857c88ed7b7c8ad7b58a98a2cd01454e86cfdfb9"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Tom McConn",
+        "reference": "assets\\sources\\REF_Male_UK-Irish.wav",
+        "gender": "Male",
+        "accent_target": "UK-Irish",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262000,
+        "raw_duration": 31.16,
+        "atempo": 1.0386666666666666,
+        "duration": 30,
+        "elapsed_seconds": 205.65832567214966,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Male",
+        "accent_target": "UK-Irish",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult male speaking English with a clearly recognizable Irish English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261000,
+        "raw_duration": 31.36,
+        "atempo": 1.0453333333333332,
+        "duration": 30,
+        "elapsed_seconds": 64.85127353668213
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Male_UK-Irish.png",
+        "sha256": "359729246ffc989a8d299d60f690fafd6ff3cccf4a55d868350c38966a34b97c",
+        "prompt_record": {
+          "id": "SYN_Male_UK-Irish",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult man about 45, dark curly hair, short beard, green casual shirt. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. This is a fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_M_UK-Irish.mp4",
+          "sha256": "f7a52be3a51caeefcb2f95e320ea8ebf2920ad8eb5808e7c4fec2d4350adbb32",
+          "generation_record": {
+            "gender": "Male",
+            "accent": "UK-Irish",
+            "source": "tom_mcconn_original.webm",
+            "person": "Tom McConn",
+            "start": 10,
+            "test_start": 1,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Male_UK-Irish.mp4",
+          "sha256": "bd339682f1b2765305444aa7f94f74b130a2d93f667fb0783133fc2ae32ce676",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_M_UK-Irish.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Male_UK-Irish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 108.3625180721283,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Male_UK-Irish.mp4",
+          "sha256": "531fc4f73d70026b60368e0ce461c6df307cbf79df825052d6c2543bf98d2f4a",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Male_UK-Irish.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Male_UK-Irish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 88.77007985115051,
+            "status": "pilot; visual/playback QA required",
+            "still_source": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T01",
+          "file": "videos/T01_Genuine_Male_UK-Irish_Good.mp4",
+          "sha256": "879bac4a15b5cb0992f944c94c693758713ab3ce0728677ef19c48505265da96",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T02",
+          "file": "videos/T02_Genuine_Male_UK-Irish_Patchy.mp4",
+          "sha256": "c41df5b2a930e774b13af80e3b6b2546c77ae95c15e6df51c2c8aa3471b81a38",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T03",
+          "file": "videos/T03_Genuine_Male_UK-Irish_Degraded.mp4",
+          "sha256": "c693fded2f0669d99b591ff1f680a2c186f27007fe4929fd4dac85ff35f2da6b",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T31",
+          "file": "videos/T31_Cloned_Male_UK-Irish_Good.mp4",
+          "sha256": "6c4af4fafa9689779e8bcf85e9a61e0d6b6f9f8b3c2b0cae5e6bf66a03b0889f",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T32",
+          "file": "videos/T32_Cloned_Male_UK-Irish_Patchy.mp4",
+          "sha256": "16166f8cf4ffd0b6f835d145b52f3182c06df350462287d14a4dabf0d9ba9b90",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T33",
+          "file": "videos/T33_Cloned_Male_UK-Irish_Degraded.mp4",
+          "sha256": "6551e40fc1d3d77ee2e95c7f79142ddf327dc28030d864b1c0e6f0768358b5a1",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T61",
+          "file": "videos/T61_Synthetic_Male_UK-Irish_Good.mp4",
+          "sha256": "9a230e5e77e251c9fd900a988ae047730d589efe4d2335be407069e3a9b8209a",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T62",
+          "file": "videos/T62_Synthetic_Male_UK-Irish_Patchy.mp4",
+          "sha256": "1dedea67d8d634c20a9ae7186116af09bf45aa2194c00d3f630173f50c6cd902",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T63",
+          "file": "videos/T63_Synthetic_Male_UK-Irish_Degraded.mp4",
+          "sha256": "2cab8b799113e9d59c5523cb9ad782bad1718cd48028f6c9096438e28be52cdb",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Male",
+      "accent_target": "UK-British",
+      "genuine_cases": "T04-T06",
+      "cloned_cases": "T34-T36",
+      "fully_synthetic_cases": "T64-T66",
+      "real_person": "Simon (Wikitongues)",
+      "original_file": "assets/sources/simon_original.webm",
+      "original_source": {
+        "title": "WIKITONGUES- Simon speaking Cumbrian",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd"
+      },
+      "original_sha256": "67c892eeaf869119bf8fab229bd8b731e427b176473e70fec1380ea2aa8a6812",
+      "genuine_excerpt_seconds": [
+        10,
+        40
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Male_UK-British.wav",
+        "source_seconds": [
+          15,
+          27
+        ],
+        "sha256": "f0be82066520b698be9f13f36a8a556c55b6481d614acb27e01e0b0ce31fdde1"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Simon (Wikitongues)",
+        "reference": "assets\\sources\\REF_Male_UK-British.wav",
+        "gender": "Male",
+        "accent_target": "UK-British",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262001,
+        "raw_duration": 21.44,
+        "atempo": 0.7146666666666667,
+        "duration": 30,
+        "elapsed_seconds": 148.40035009384155,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Male",
+        "accent_target": "UK-British",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult male speaking English with a clearly recognizable standard southern English, England accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261001,
+        "raw_duration": 29.52,
+        "atempo": 0.984,
+        "duration": 30,
+        "elapsed_seconds": 60.50666403770447
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Male_UK-British.png",
+        "sha256": "3ba88c66d2da58ace5439b7851ecffc07488be8654d8cec03d171c7984e34187",
+        "prompt_record": {
+          "id": "SYN_Male_UK-British",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult man about 30, black short hair, clean shaven, medium brown skin, grey polo shirt. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. This is a fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_M_UK-British.mp4",
+          "sha256": "3784d18f89822246502f12b09f8a2d7382b0f0bad5f82682e427d91cd479267b",
+          "generation_record": {
+            "gender": "Male",
+            "accent": "UK-British",
+            "source": "simon_original.webm",
+            "person": "Simon (Wikitongues)",
+            "start": 10,
+            "test_start": 4,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Male_UK-British.mp4",
+          "sha256": "096d7ccfa94b712833d8d829f6b844641a9288f521683cc96b5d8244c487c61b",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_M_UK-British.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Male_UK-British.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 102.15418648719788,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Male_UK-British.mp4",
+          "sha256": "0c5fcfe06a6b12fdae8f3ca6fb913b4f940fe22aa2be2c3e3a719be64dc37e56",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Male_UK-British.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Male_UK-British.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 89.46633076667786,
+            "status": "pilot; visual/playback QA required",
+            "still_source": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T04",
+          "file": "videos/T04_Genuine_Male_UK-British_Good.mp4",
+          "sha256": "689c5de5d447484c2fedf48b1ce1010c7981291620037bc77466885d49fa532a",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T05",
+          "file": "videos/T05_Genuine_Male_UK-British_Patchy.mp4",
+          "sha256": "7446d6f2ae4ab5b423bc70a3f46624252e1db64641c6cacae644218f5fdbf17f",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T06",
+          "file": "videos/T06_Genuine_Male_UK-British_Degraded.mp4",
+          "sha256": "ada303a8132b52ea221f9a970c61c3480988d241de7efadc1669f02b1930ed9a",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T34",
+          "file": "videos/T34_Cloned_Male_UK-British_Good.mp4",
+          "sha256": "fe484f0f085bd635f07e2e26150c11b885de0399c87a08f4a86aadb1b0deaa2f",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T35",
+          "file": "videos/T35_Cloned_Male_UK-British_Patchy.mp4",
+          "sha256": "0a6e1594244172fc2d79ec93aa3658f8b67c231d3c76684a4040049c1ddcadc5",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T36",
+          "file": "videos/T36_Cloned_Male_UK-British_Degraded.mp4",
+          "sha256": "a4aa54439755ae5ac6a6c06a8db7b8371c9c00817c1da3c0b68c7aa3965296b6",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T64",
+          "file": "videos/T64_Synthetic_Male_UK-British_Good.mp4",
+          "sha256": "08cb7ab30a318f7a08002f8a0fbced661b39378495d8cdbfea33bf478e5de056",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T65",
+          "file": "videos/T65_Synthetic_Male_UK-British_Patchy.mp4",
+          "sha256": "c71f702e74a5a368e14557c948b4ad30817e4c72c3b43f136a50fac1df7c6412",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T66",
+          "file": "videos/T66_Synthetic_Male_UK-British_Degraded.mp4",
+          "sha256": "0e048275754ebecc1a6b0441983ae4f7083ceaf9ade76b95e717b3c468aaa7fb",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Male",
+      "accent_target": "UK-Scottish",
+      "genuine_cases": "T07-T09",
+      "cloned_cases": "T37-T39",
+      "fully_synthetic_cases": "T67-T69",
+      "real_person": "David Campbell",
+      "original_file": "assets/sources/david_campbell_original.webm",
+      "original_source": {
+        "title": "WIKITONGUES- David speaking Doric Scots and English",
+        "author": "Wikitongues",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3"
+      },
+      "original_sha256": "3796ef1aba69c52f8f3fc9e8f77cadc135f97da5db528b76b4947462cbfd16ca",
+      "genuine_excerpt_seconds": [
+        290,
+        320
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Male_UK-Scottish.wav",
+        "source_seconds": [
+          295,
+          307
+        ],
+        "sha256": "b7beff3cfce0506fffd9ff96a38da3807cddcc5a48c02f39e7cad8fddcbdee57"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "David Campbell",
+        "reference": "assets\\sources\\REF_Male_UK-Scottish.wav",
+        "gender": "Male",
+        "accent_target": "UK-Scottish",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262002,
+        "raw_duration": 24.0,
+        "atempo": 0.8,
+        "duration": 30,
+        "elapsed_seconds": 18.605717182159424,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Male",
+        "accent_target": "UK-Scottish",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult male speaking English with a clearly recognizable Scottish English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261002,
+        "raw_duration": 26.64,
+        "atempo": 0.888,
+        "duration": 30,
+        "elapsed_seconds": 55.58522891998291
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Male_UK-Scottish.png",
+        "sha256": "f7ad0938919dd3bccc4cc72823a31a3567081abb3993d1f9b2aac9fc418c1f45",
+        "prompt_record": {
+          "id": "SYN_Male_UK-Scottish",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult man about 50, light brown hair with grey temples, clean shaven, navy sweater. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. This is a fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_M_UK-Scottish.mp4",
+          "sha256": "62ab003d1da88edf5b29d3ab7ea2e153c21fd8955aeee1fe8958660d635b7967",
+          "generation_record": {
+            "gender": "Male",
+            "accent": "UK-Scottish",
+            "source": "david_campbell_original.webm",
+            "person": "David Campbell",
+            "start": 290,
+            "test_start": 7,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Male_UK-Scottish.mp4",
+          "sha256": "3c596d74c2aba2f2e60247cb7935edb68cc591420991b899c5ff69af01043021",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_M_UK-Scottish.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Male_UK-Scottish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 103.5538215637207,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Male_UK-Scottish.mp4",
+          "sha256": "a3fb2dfa7d3416cc16ee608e724832b03bfb158e9f19bb4edd5d90cf1a0fe85d",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Male_UK-Scottish.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Male_UK-Scottish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 110.39931416511536,
+            "status": "pilot; visual/playback QA required",
+            "still_source": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T07",
+          "file": "videos/T07_Genuine_Male_UK-Scottish_Good.mp4",
+          "sha256": "e5edc563e5385b99e45a11ffc14df78f1fb47f283ff8aea686880d17c0357f80",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T08",
+          "file": "videos/T08_Genuine_Male_UK-Scottish_Patchy.mp4",
+          "sha256": "b5be6c023f6f9369db47a3be054b01a4a5f30ab7109ae091133b574e4ffc6ce3",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T09",
+          "file": "videos/T09_Genuine_Male_UK-Scottish_Degraded.mp4",
+          "sha256": "740c706bf1184684c99064b38cc75d19a498eeb136a4f68a535e2db96bb18a28",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T37",
+          "file": "videos/T37_Cloned_Male_UK-Scottish_Good.mp4",
+          "sha256": "a2488d1f7e0dbc37fa9a5f1e771d6ffaf50483aef86f151c928a27772af5bf4a",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T38",
+          "file": "videos/T38_Cloned_Male_UK-Scottish_Patchy.mp4",
+          "sha256": "4c4a545cd32f955bd20093b9563fa98e244ee278f5912ce5d178c7b1fee1331e",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T39",
+          "file": "videos/T39_Cloned_Male_UK-Scottish_Degraded.mp4",
+          "sha256": "bcb3a1b902b6c5e7d1262410c6969aa2f0e0e247ab576c6970731ae52b39235c",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T67",
+          "file": "videos/T67_Synthetic_Male_UK-Scottish_Good.mp4",
+          "sha256": "6b46fdbe5e44caf36e88bd98a08a07f96734bcec853049f847343990041503c8",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T68",
+          "file": "videos/T68_Synthetic_Male_UK-Scottish_Patchy.mp4",
+          "sha256": "b8e1ffaa8f79aa21397c980f808ac54eeb589e9304c9cf26542c8aa1acaa60ff",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T69",
+          "file": "videos/T69_Synthetic_Male_UK-Scottish_Degraded.mp4",
+          "sha256": "0dcd09ffc59cb5da4e98e4d93afe0eb1ad376b42ae0e8959ed1ad1d20afafe4a",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Male",
+      "accent_target": "American",
+      "genuine_cases": "T10-T12",
+      "cloned_cases": "T40-T42",
+      "fully_synthetic_cases": "T70-T72",
+      "real_person": "Jimmy Wales",
+      "original_file": "assets/sources/jimmy_wales_original.webm",
+      "original_source": {
+        "title": "Jimmy Wales interview for WikipediaDay 2019",
+        "author": "Jwslubbock",
+        "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Wales_interview_for_WikipediaDay_2019.webm",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "8b64828cae42c32904e610cd309fa38f5a772f45"
+      },
+      "original_sha256": "dfba01c662cb7736642092e2311eaa46306a7023cd5af4dd231ab3918e7e568b",
+      "genuine_excerpt_seconds": [
+        10,
+        40
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Male_American.wav",
+        "source_seconds": [
+          15,
+          27
+        ],
+        "sha256": "31efa48f0291bdb872a06e5225affb1780b0ae8ad767586c31f78563ccb4485d"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Jimmy Wales",
+        "reference": "assets\\sources\\REF_Male_American.wav",
+        "gender": "Male",
+        "accent_target": "American",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262003,
+        "raw_duration": 21.2,
+        "atempo": 0.7066666666666667,
+        "duration": 30,
+        "elapsed_seconds": 13.011140823364258,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Male",
+        "accent_target": "American",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult male speaking English with a clearly recognizable general American English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261003,
+        "raw_duration": 26.48,
+        "atempo": 0.8826666666666667,
+        "duration": 30,
+        "elapsed_seconds": 54.796167612075806
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Male_American.png",
+        "sha256": "890e6ed7eb842fce92f8bba227ca82255bb4d0169794a733e75f94e11a3a0c82",
+        "prompt_record": {
+          "identity": "invented; no real-person reference",
+          "source_image": "SYN_M01_portrait.png",
+          "recorded_prompt_summary": "Invented adult man around 35, short brown hair, clean shaven, natural skin texture, centered webcam head-and-upper-torso view, plain blue shirt, neutral home office, eye-level camera, even lighting, no text or logos.",
+          "accent": "Voice target only; not inferred from appearance"
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_M_American.mp4",
+          "sha256": "669e1763ce41e7eab55c02cd941f1575054298a65cb621ed502fe530baf23210",
+          "generation_record": {
+            "gender": "Male",
+            "accent": "American",
+            "source": "jimmy_wales_original.webm",
+            "person": "Jimmy Wales",
+            "start": 10,
+            "test_start": 10,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Male_American.mp4",
+          "sha256": "72f83308ba596f2a19bc0725b4835086e02b3a1220157e597ba9b6e20ed3ec70",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_M_American.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Male_American.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 99.38423013687134,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Male_American.mp4",
+          "sha256": "a0b4cd6e88cb7830e4ee950770ed131354a8cfdc8d9d3d9bbc20f1e28afc44a0",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Male_American.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Male_American.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 86.41538715362549,
+            "status": "pilot; visual/playback QA required",
+            "still_source": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T10",
+          "file": "videos/T10_Genuine_Male_American_Good.mp4",
+          "sha256": "1d4ba61b06ce8edd9574634fe2b55e41f053e058d8cf9ab0d6d073fd3208e7a1",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T11",
+          "file": "videos/T11_Genuine_Male_American_Patchy.mp4",
+          "sha256": "f06d9e0b1b052f27294731420a6533ef2d971fc4496e41d22eaee0b60bde9587",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T12",
+          "file": "videos/T12_Genuine_Male_American_Degraded.mp4",
+          "sha256": "4d5bf7dbf4aa9cbed8596f51f077bf33248c9580d9624c5ae8101efbfbfe4d70",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T40",
+          "file": "videos/T40_Cloned_Male_American_Good.mp4",
+          "sha256": "aeeff4734497f3ac47d8baa61780a2761cf81ea1369f672e2fee5f2e0ef0ac16",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T41",
+          "file": "videos/T41_Cloned_Male_American_Patchy.mp4",
+          "sha256": "9dcdafc41c586943db200a8452401ec86e9fe8c0ca6e173e690d9c2e68bc5f28",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T42",
+          "file": "videos/T42_Cloned_Male_American_Degraded.mp4",
+          "sha256": "ef7b118d11e409a05f6d2a494c5a9e33cc28d69641f82da8cb3e9bc6c92fccee",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T70",
+          "file": "videos/T70_Synthetic_Male_American_Good.mp4",
+          "sha256": "372c6b53b89f95591f1f66cdc44b6184fecf589786ea62c9f50573b31917fe0e",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T71",
+          "file": "videos/T71_Synthetic_Male_American_Patchy.mp4",
+          "sha256": "9e0d0caee41c99c58779a3330a91523abe9cd37e243919682fbdab0aa4a9a03e",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T72",
+          "file": "videos/T72_Synthetic_Male_American_Degraded.mp4",
+          "sha256": "b48a130031a342015e467bc50e0a73b23317f29a3ea50a03e4a131953267d978",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Male",
+      "accent_target": "Indian",
+      "genuine_cases": "T13-T15",
+      "cloned_cases": "T43-T45",
+      "fully_synthetic_cases": "T73-T75",
+      "real_person": "Gautam John",
+      "original_file": "assets/sources/gautam_john_original.webm",
+      "original_source": {
+        "title": "WikipediansSpeak-Gautam John",
+        "author": "Subhashish Panigrahi (Centre for Internet and Society / Access To Knowledge)",
+        "page": "https://commons.wikimedia.org/wiki/File:WikipediansSpeak-Gautam_John.webm",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "original_sha1": "979d9c1ce8a01ff62361e1c75ce6fda5e2225812"
+      },
+      "original_sha256": "a45d81585f32d1d2e1e54f95c34010bf9c6f1edcf23c22a09c028ae970873591",
+      "genuine_excerpt_seconds": [
+        10,
+        40
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Male_Indian.wav",
+        "source_seconds": [
+          15,
+          27
+        ],
+        "sha256": "cdbc810ff312225e25030538f7d52c125d8309a95c7380a2124c2df4af765aa9"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Gautam John",
+        "reference": "assets\\sources\\REF_Male_Indian.wav",
+        "gender": "Male",
+        "accent_target": "Indian",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262004,
+        "raw_duration": 24.24,
+        "atempo": 0.8079999999999999,
+        "duration": 30,
+        "elapsed_seconds": 14.793807029724121,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Male",
+        "accent_target": "Indian",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult male speaking English with a clearly recognizable Indian English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261004,
+        "raw_duration": 28.88,
+        "atempo": 0.9626666666666667,
+        "duration": 30,
+        "elapsed_seconds": 86.57937383651733
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Male_Indian.png",
+        "sha256": "7468835eff13aa9ce121f6dbabfea4591ab1c20b03c800d44f3ed4eb2544e224",
+        "prompt_record": {
+          "id": "SYN_Male_Indian",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult man around 40, medium brown skin, short salt-and-pepper hair, neat moustache, burgundy shirt. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. Fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_M_Indian.mp4",
+          "sha256": "142bfdbf973bb219db529f55b970290afc4bd130ad8a4971b4f267229aad9e6d",
+          "generation_record": {
+            "gender": "Male",
+            "accent": "Indian",
+            "source": "gautam_john_original.webm",
+            "person": "Gautam John",
+            "start": 10,
+            "test_start": 13,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Male_Indian.mp4",
+          "sha256": "3198a267786d644ca1277452bff1cfef5d0c2aba23fe2bc726c6e728c73b8c98",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_M_Indian.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Male_Indian.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 98.83674788475037,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Male_Indian.mp4",
+          "sha256": "0708ca5912ba83c3413d35482ee0b9ceb0fe3a4a185a66d9093d4fc472692152",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Male_Indian.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Male_Indian.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 89.65806937217712,
+            "status": "pilot; visual/playback QA required",
+            "still_source": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T13",
+          "file": "videos/T13_Genuine_Male_Indian_Good.mp4",
+          "sha256": "fd231caf621c0e335166b383f707a9d4d85e833e80e1f23f19426e298d55b1b9",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T14",
+          "file": "videos/T14_Genuine_Male_Indian_Patchy.mp4",
+          "sha256": "c88d39605e5fe47451bc097671e4010b042da7c0a6fad399f51033c4bee59cb2",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T15",
+          "file": "videos/T15_Genuine_Male_Indian_Degraded.mp4",
+          "sha256": "0e88a06499c129933a458f585150e632907b7d2334a63e509d292047234e0fd4",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T43",
+          "file": "videos/T43_Cloned_Male_Indian_Good.mp4",
+          "sha256": "26b7e9d3da35ec4f8e47fe48e733f4640450530840842ee166f8182643c4ad0d",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T44",
+          "file": "videos/T44_Cloned_Male_Indian_Patchy.mp4",
+          "sha256": "e40c75ab30ab5b2e12639763516a89e0446a8f52dcba772992a8ebd46e1cb8db",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T45",
+          "file": "videos/T45_Cloned_Male_Indian_Degraded.mp4",
+          "sha256": "8f6be23c05320e454a75d0cce7fef318a2be221ca8af6b844d08ad4bf6b41d8b",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T73",
+          "file": "videos/T73_Synthetic_Male_Indian_Good.mp4",
+          "sha256": "3b2e1df27f975c8b74b3d1174d399f1e3e3bf6e9487f185629d6e81d52ef95d8",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T74",
+          "file": "videos/T74_Synthetic_Male_Indian_Patchy.mp4",
+          "sha256": "1f7a983ca18d49d03db9f92352131f8375168e7eb6bdc5372d69542bc78afcf8",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T75",
+          "file": "videos/T75_Synthetic_Male_Indian_Degraded.mp4",
+          "sha256": "1cb4880ca07e658eb16a21b418645925eed5d3fa35c107e518d5bf807c2403e1",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Female",
+      "accent_target": "UK-Irish",
+      "genuine_cases": "T16-T18",
+      "cloned_cases": "T46-T48",
+      "fully_synthetic_cases": "T76-T78",
+      "real_person": "Mairead McGuinness",
+      "original_file": "assets/sources/mairead_mcguinness_original.webm",
+      "original_source": {
+        "title": "McGuinness, Mairead (en)",
+        "author": "Manuel Schneider",
+        "page": "https://commons.wikimedia.org/wiki/File:McGuinness,_Mairead_(en).webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "9d4a851a8e1aa913cb9d2aa63a7e1d4dd4b74b53"
+      },
+      "original_sha256": "1eca49a27bb123ca1ad6881d61830536d64bf8854edd32e5e06ed270516894fb",
+      "genuine_excerpt_seconds": [
+        10,
+        40
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Female_UK-Irish.wav",
+        "source_seconds": [
+          15,
+          27
+        ],
+        "sha256": "291664a7d99eb993740ae1b0c38fd580deb4ffd0dbb5ff63b89fc06cb2b571c8"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Mairead McGuinness",
+        "reference": "assets\\sources\\REF_Female_UK-Irish.wav",
+        "gender": "Female",
+        "accent_target": "UK-Irish",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262005,
+        "raw_duration": 27.12,
+        "atempo": 0.904,
+        "duration": 30,
+        "elapsed_seconds": 16.730903387069702,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Female",
+        "accent_target": "UK-Irish",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult female speaking English with a clearly recognizable Irish English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261010,
+        "raw_duration": 27.84,
+        "atempo": 0.928,
+        "duration": 30,
+        "elapsed_seconds": 63.6828887462616
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Female_UK-Irish.png",
+        "sha256": "75091427e1888f3e79ef9e4f1d71424230afca83ac78d6190487610b0dba0da0",
+        "prompt_record": {
+          "id": "SYN_Female_UK-Irish",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult woman around 35, shoulder-length dark auburn hair, light skin, navy blouse. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. Fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_F_UK-Irish.mp4",
+          "sha256": "c209b40762dc82fbaefb01e6f639fcaf634c362bad3d7170109c0a8d4fb9c8ec",
+          "generation_record": {
+            "gender": "Female",
+            "accent": "UK-Irish",
+            "source": "mairead_mcguinness_original.webm",
+            "person": "Mairead McGuinness",
+            "start": 10,
+            "test_start": 16,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Female_UK-Irish.mp4",
+          "sha256": "55d3387f5076756af57d4897471fc948ae5b4b3960c0c5d6db95c7c5250a637c",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_F_UK-Irish.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Female_UK-Irish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 99.29866218566895,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Female_UK-Irish.mp4",
+          "sha256": "abd3ab91dc4f75c0a3e49a946405f829d8155f3ebedbace4504453cada86243f",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Female_UK-Irish.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Female_UK-Irish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 62.94347524642944,
+            "status": "generated; visual/playback QA required",
+            "still_source": true,
+            "face_mask_cache": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T16",
+          "file": "videos/T16_Genuine_Female_UK-Irish_Good.mp4",
+          "sha256": "28bd56cbdedf4ba84c6b9e991af2b829ebb019c986c331707de7f54247915fc7",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T17",
+          "file": "videos/T17_Genuine_Female_UK-Irish_Patchy.mp4",
+          "sha256": "6284ecfa3a8b7e6ef62175de7aaf64c97f92fd69685cf6177367f6dec1743c6f",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T18",
+          "file": "videos/T18_Genuine_Female_UK-Irish_Degraded.mp4",
+          "sha256": "7339691fd44ee71c6f391c763df47843599d2fe844efec22dcaa6051062b9e98",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T46",
+          "file": "videos/T46_Cloned_Female_UK-Irish_Good.mp4",
+          "sha256": "a445d814bc888d423dfb3471687970c598beed9448700a2b935bbd3aa5c1b1fc",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T47",
+          "file": "videos/T47_Cloned_Female_UK-Irish_Patchy.mp4",
+          "sha256": "c69c795cc3f65e07a400f107c27c40a5c1834bac5318fa7e1fae3f30b9e2a00a",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T48",
+          "file": "videos/T48_Cloned_Female_UK-Irish_Degraded.mp4",
+          "sha256": "50a13a4b656dc42eb092ceda79bac7c5233c1c68ee797d1441aa088fc7d560ca",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T76",
+          "file": "videos/T76_Synthetic_Female_UK-Irish_Good.mp4",
+          "sha256": "695df78859350b0a64e07254b81b9479b877ea2b4ecd8b378727fc44cdac3c91",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T77",
+          "file": "videos/T77_Synthetic_Female_UK-Irish_Patchy.mp4",
+          "sha256": "bf8507650a7a9cb5425815bbbc524c3568c80d3b8b20bdd3a93d2fbc001ec9a9",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T78",
+          "file": "videos/T78_Synthetic_Female_UK-Irish_Degraded.mp4",
+          "sha256": "9cf112bcd7bc66ceda0fd10c8d01b8f2215a97ac9b8f6e4babfb9e3df105ff2c",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Female",
+      "accent_target": "UK-British",
+      "genuine_cases": "T19-T21",
+      "cloned_cases": "T49-T51",
+      "fully_synthetic_cases": "T79-T81",
+      "real_person": "Lucy Crompton-Reid",
+      "original_file": "assets/sources/celtic_knot_welcome_original.mpg",
+      "original_source": {
+        "title": "Conference Welcome Shannon Eichelberger Wikimedia Community Ireland Lucy Crompton-Reid Wikimedia UK 25.09.2024 Celtic Knot Conference",
+        "author": "OifigeachWMIE",
+        "page": "https://commons.wikimedia.org/wiki/File:Conference_Welcome_Shannon_Eichelberger_Wikimedia_Community_Ireland_Lucy_Crompton-Reid_Wikimedia_UK_25.09.2024_Celtic_Knot_Conference.mpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_sha1": "b643e087964bed0773f7dcdf74548a335ca31487"
+      },
+      "original_sha256": "54f6445eb765b5032b569552528e98cc9132d249e21aefa762a907315f927e63",
+      "genuine_excerpt_seconds": [
+        1050,
+        1080
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Female_UK-British.wav",
+        "source_seconds": [
+          1055,
+          1067
+        ],
+        "sha256": "6e408b98bdfa4029a288fcefcff1ec0266256e7cd05ed66db54fbd8ea9f37ca2"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Lucy Crompton-Reid",
+        "reference": "assets\\sources\\REF_Female_UK-British.wav",
+        "gender": "Female",
+        "accent_target": "UK-British",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262006,
+        "raw_duration": 24.08,
+        "atempo": 0.8026666666666666,
+        "duration": 30,
+        "elapsed_seconds": 14.881111860275269,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Female",
+        "accent_target": "UK-British",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult female speaking English with a clearly recognizable standard southern English, England accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261011,
+        "raw_duration": 28.0,
+        "atempo": 0.9333333333333333,
+        "duration": 30,
+        "elapsed_seconds": 56.97589182853699
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Female_UK-British.png",
+        "sha256": "a3c80b2132be50e520fc428e8c077238078de6219bd9698ac454f01b9329be94",
+        "prompt_record": {
+          "id": "SYN_Female_UK-British",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult woman around 45, medium brown skin, dark curly hair tied back, cream blouse. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. Fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_F_UK-British.mp4",
+          "sha256": "613b9fa8b3df07b27e44833da1c3a526dcc58ebe81c1692cacfb8e7d4ce3c3b4",
+          "generation_record": {
+            "gender": "Female",
+            "accent": "UK-British",
+            "source": "celtic_knot_welcome_original.mpg",
+            "person": "Lucy Crompton-Reid",
+            "start": 1050,
+            "test_start": 19,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Female_UK-British.mp4",
+          "sha256": "11dfac84a047284855e5334ada8c2fef77ecf1ca2ca55f9b64e32849b95aee08",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_F_UK-British.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Female_UK-British.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 95.85981488227844,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Female_UK-British.mp4",
+          "sha256": "91f918699c0ec8652d5369224eeff95ffe7f490c04201f8a7eb6ea3359420477",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Female_UK-British.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Female_UK-British.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 76.35734152793884,
+            "status": "generated; visual/playback QA required",
+            "still_source": true,
+            "face_mask_cache": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T19",
+          "file": "videos/T19_Genuine_Female_UK-British_Good.mp4",
+          "sha256": "8eb37318e1c1e9d9ced457b3e307b4fdf02d6d49dbf50f09f277a8d06f968f2a",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T20",
+          "file": "videos/T20_Genuine_Female_UK-British_Patchy.mp4",
+          "sha256": "5ca00cd5bf97e5cf4b762c710be9a5ce8932193962b30b78b345f3552a16323f",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T21",
+          "file": "videos/T21_Genuine_Female_UK-British_Degraded.mp4",
+          "sha256": "c26f5202409bea7c4b5c70e139f220c022db9f50c7fc50a9cb8ab6a1e6e839fc",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T49",
+          "file": "videos/T49_Cloned_Female_UK-British_Good.mp4",
+          "sha256": "3e9342228f388274a5580c9b22396d2bcfc8f5131675bc613b26bc4c8df1c2ca",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T50",
+          "file": "videos/T50_Cloned_Female_UK-British_Patchy.mp4",
+          "sha256": "47b4148a4cc1686a16e2c4f87fa9c5d8b4fa1b41b619446c7c4fea74eb5c8688",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T51",
+          "file": "videos/T51_Cloned_Female_UK-British_Degraded.mp4",
+          "sha256": "e44413f8501791ac36ac146471709b8bd966b70ecc36f43e0a7469dee3e2d17c",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T79",
+          "file": "videos/T79_Synthetic_Female_UK-British_Good.mp4",
+          "sha256": "f908239d14f69d56aadb5f068945df1b202908a98066764bc997497c0ce7d2fe",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T80",
+          "file": "videos/T80_Synthetic_Female_UK-British_Patchy.mp4",
+          "sha256": "614ab76fd6fb1ec02eb08f935f2743ff11dff098d821f1fb97a03699d676d411",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T81",
+          "file": "videos/T81_Synthetic_Female_UK-British_Degraded.mp4",
+          "sha256": "f1accb93fd7e1c85adf896882d8ee7d6857c99fedffea1db881d686481a91166",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Female",
+      "accent_target": "UK-Scottish",
+      "genuine_cases": "T22-T24",
+      "cloned_cases": "T52-T54",
+      "fully_synthetic_cases": "T82-T84",
+      "real_person": "Christine de Luca",
+      "original_file": "assets/sources/christine_deluca_original.webm",
+      "original_source": {
+        "title": "WIKITONGUES- Christine speaking Shetlandic",
+        "author": "Christine de Luca",
+        "page": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a"
+      },
+      "original_sha256": "e6e144bb10828614ad68b0e73c29a1d50cd5f77c8da7b1dc82a8797a13d8043c",
+      "genuine_excerpt_seconds": [
+        10,
+        40
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Female_UK-Scottish.wav",
+        "source_seconds": [
+          15,
+          27
+        ],
+        "sha256": "e8525d6701ccb7c7779e437a014f65d0fbbd958ec4e15451be2ba29fa13056d0"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Christine de Luca",
+        "reference": "assets\\sources\\REF_Female_UK-Scottish.wav",
+        "gender": "Female",
+        "accent_target": "UK-Scottish",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": [
+          20263007,
+          20263008,
+          20263009
+        ],
+        "raw_duration": 38.05,
+        "atempo": 1.2683333333333333,
+        "duration": 30,
+        "elapsed_seconds": 24.430378913879395,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified",
+        "repair": "Original generation omitted script sections; regenerated in three chunks",
+        "generation_settings": {
+          "temperature": 0.6,
+          "exaggeration": 0.3,
+          "pause_seconds": 0.15
+        }
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Female",
+        "accent_target": "UK-Scottish",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult female speaking English with a clearly recognizable Scottish English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261012,
+        "raw_duration": 29.04,
+        "atempo": 0.968,
+        "duration": 30,
+        "elapsed_seconds": 58.77135252952576
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Female_UK-Scottish.png",
+        "sha256": "460afae3da824f6f41d3112884793b614a970307e5ac3638696ccb3f61e980f3",
+        "prompt_record": {
+          "id": "SYN_Female_UK-Scottish",
+          "prompt": "Photorealistic webcam interview reference portrait of one entirely invented person: adult woman around 50, short silver-blonde hair, light skin, dark green blouse. Head and shoulders centered, directly facing camera, lips gently closed, eyes clearly visible, no glasses, natural skin texture and even frontal soft light. Simple home office background. Landscape 16:9, head occupies about 45 percent image height. No text or logos. Fictional identity for an internal synthetic-media detector test. Do not depict any named real person. One portrait only.",
+          "method": "built-in image generation",
+          "reference_person": null
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_F_UK-Scottish.mp4",
+          "sha256": "0c831ab7f2d61d3b41ed82d586e7004c2dcaa44dc6aaa94ec8f2c9d4891d57eb",
+          "generation_record": {
+            "gender": "Female",
+            "accent": "UK-Scottish",
+            "source": "christine_deluca_original.webm",
+            "person": "Christine de Luca",
+            "start": 10,
+            "test_start": 22,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Female_UK-Scottish.mp4",
+          "sha256": "826f17e83ee0ae88e7a242c11e369eee218a250559bce568e201adb9c847d9e1",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_F_UK-Scottish.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Female_UK-Scottish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 107.35309886932373,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Female_UK-Scottish.mp4",
+          "sha256": "1580978cfbd3081d6046e4dc1fe87fa12a67186d2f459cbace8aa979664ee722",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Female_UK-Scottish.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Female_UK-Scottish.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 81.0977373123169,
+            "status": "generated; visual/playback QA required",
+            "still_source": true,
+            "face_mask_cache": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T22",
+          "file": "videos/T22_Genuine_Female_UK-Scottish_Good.mp4",
+          "sha256": "6b3c1f1f22951d414225219cc4fde74bbf58f3fed92e19bcc532f77a45332799",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T23",
+          "file": "videos/T23_Genuine_Female_UK-Scottish_Patchy.mp4",
+          "sha256": "3299e9768b1b5072eb609bea9955f0bacd65ff7ed9b005f124f73491cf043c35",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T24",
+          "file": "videos/T24_Genuine_Female_UK-Scottish_Degraded.mp4",
+          "sha256": "2d257433cd9a24ab4d55c2bf2bab5fc2a7c41c67142807f6257c8a0e70dd7b34",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T52",
+          "file": "videos/T52_Cloned_Female_UK-Scottish_Good.mp4",
+          "sha256": "a604bfe6f8fccfab1fcb913c90812807714ae278bdeaa3626c5717fee3de95df",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T53",
+          "file": "videos/T53_Cloned_Female_UK-Scottish_Patchy.mp4",
+          "sha256": "d86b82c6fbbfda597c8a18b7e1110c4f1bcefbfadeea454479a7b353a8d23757",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T54",
+          "file": "videos/T54_Cloned_Female_UK-Scottish_Degraded.mp4",
+          "sha256": "23a7e736ada162297d463f98b6a98e0d3c455297ddb6b9b0db4af5c0fd521ca0",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T82",
+          "file": "videos/T82_Synthetic_Female_UK-Scottish_Good.mp4",
+          "sha256": "ee62ec14f1afde23e3cc312bbb2a76b024896960d754821ef503d62860d2c6ae",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T83",
+          "file": "videos/T83_Synthetic_Female_UK-Scottish_Patchy.mp4",
+          "sha256": "7f20d673aa331e92eb32dafaebb0e0b2671ee2ae07064e4ac77f908f3db1be34",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T84",
+          "file": "videos/T84_Synthetic_Female_UK-Scottish_Degraded.mp4",
+          "sha256": "a943824c06b12343c76d49f77ca51f9da6432d421dfc9bfcbaf35176d4b56cdc",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Female",
+      "accent_target": "American",
+      "genuine_cases": "T25-T27",
+      "cloned_cases": "T55-T57",
+      "fully_synthetic_cases": "T85-T87",
+      "real_person": "Katherine Maher",
+      "original_file": "assets/sources/katherine_maher_full_original.webm",
+      "original_source": {
+        "title": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+        "author": "Wamda",
+        "page": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "original_sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b"
+      },
+      "original_sha256": "62709f5bdfe1881650a468a0d4551510bddb647330ae2d99eac10089da8ff758",
+      "genuine_excerpt_seconds": [
+        30,
+        60
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Female_American.wav",
+        "source_seconds": [
+          35,
+          47
+        ],
+        "sha256": "0857e7ba3d0b00133c61af159f288609cd53b048cdaa4bb7b21ba5e4b302cba1"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Katherine Maher",
+        "reference": "assets\\sources\\REF_Female_American.wav",
+        "gender": "Female",
+        "accent_target": "American",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262008,
+        "raw_duration": 25.56,
+        "atempo": 0.852,
+        "duration": 30,
+        "elapsed_seconds": 17.27177333831787,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Female",
+        "accent_target": "American",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult female speaking English with a clearly recognizable general American English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261013,
+        "raw_duration": 28.16,
+        "atempo": 0.9386666666666666,
+        "duration": 30,
+        "elapsed_seconds": 57.452709436416626
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Female_American.png",
+        "sha256": "f0726ac03ccce74671e4ee326076528880cad50c1c47b517961cf8cba20210ed",
+        "prompt_record": {
+          "prompt": "Photorealistic fictional adult woman, age around 35, light brown skin, straight shoulder-length black hair, muted blue blouse. Invent an entirely new person, not resembling a named real person. Centered front-facing webcam interview portrait, eyes toward camera, lips naturally closed, no glasses, softly lit home office background. Head and shoulders visible with ample space around head. Landscape 16:9. Neutral relaxed expression. No text or watermark.",
+          "identity": "invented",
+          "accent": "voice target only; not inferred from appearance"
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_F_American.mp4",
+          "sha256": "266ac78ab96273c931ab266b9e4b9236588f2b006583d94d59775a64c9eaa79f",
+          "generation_record": {
+            "gender": "Female",
+            "accent": "American",
+            "source": "katherine_maher_full_original.webm",
+            "person": "Katherine Maher",
+            "start": 30,
+            "test_start": 25,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Female_American.mp4",
+          "sha256": "40af14584a7ca8ce16e65333b08f1847d27c9c01460ea4fde71c0afc5d8a4746",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_F_American.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Female_American.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "reviewed fixed box",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 102.70541667938232,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Female_American.mp4",
+          "sha256": "c42bbe34352eff3281da4236705d26e4ae7dca384e9e1e4f5423687be1d4ac3f",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Female_American.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Female_American.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 81.3370943069458,
+            "status": "generated; visual/playback QA required",
+            "still_source": true,
+            "face_mask_cache": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T25",
+          "file": "videos/T25_Genuine_Female_American_Good.mp4",
+          "sha256": "87381f7eb04876a3831cd2d7598729a789261abc48e8c5e2296d676a0f23d121",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T26",
+          "file": "videos/T26_Genuine_Female_American_Patchy.mp4",
+          "sha256": "a0781d07a254f54df02350a7527666f13f1f3671c57491d5c234cf9a5f18dfae",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T27",
+          "file": "videos/T27_Genuine_Female_American_Degraded.mp4",
+          "sha256": "6731579411b8230f5f4d14ce5e7ac2cfa2c7eb75693ea45f372ef07802daae81",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T55",
+          "file": "videos/T55_Cloned_Female_American_Good.mp4",
+          "sha256": "a0efb7766ea1cff877046456e70a15136307b0cd34c323bd9eb3b686514911ef",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T56",
+          "file": "videos/T56_Cloned_Female_American_Patchy.mp4",
+          "sha256": "edc6910309b55ebf0a60169ce6f10cfef53cb1e5c3232f42d66620f08bfe1d48",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T57",
+          "file": "videos/T57_Cloned_Female_American_Degraded.mp4",
+          "sha256": "b12eb8568c64389ba39b39c45770e90a4a91525dba3b7d43046720655c137a63",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T85",
+          "file": "videos/T85_Synthetic_Female_American_Good.mp4",
+          "sha256": "0e26904d4fe6ff227dc0f1d8c916a495f9c6ea6e1a060517596bd2f5d58b03f2",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T86",
+          "file": "videos/T86_Synthetic_Female_American_Patchy.mp4",
+          "sha256": "0e6670ae01bf64988f4668d1f780e5f5663b0a97ad71862f758e7d22d7ff407a",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T87",
+          "file": "videos/T87_Synthetic_Female_American_Degraded.mp4",
+          "sha256": "683d568ddf5e14143462451d3813613aca06bda768b5f7b62e67089bb28dc12d",
+          "profile": "Degraded"
+        }
+      ]
+    },
+    {
+      "gender_label": "Female",
+      "accent_target": "Indian",
+      "genuine_cases": "T28-T30",
+      "cloned_cases": "T58-T60",
+      "fully_synthetic_cases": "T88-T90",
+      "real_person": "Netha Hussain",
+      "original_file": "assets/sources/netha_hussain_original.ogv",
+      "original_source": {
+        "title": "Interview Netha Hussain",
+        "author": "Wikimedia Deutschland (WMDE)",
+        "page": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "original_sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79"
+      },
+      "original_sha256": "0fde9f22a8f0a4397cc95ce9af861b096d19a60bb6bbdd9a54843fc860e44a15",
+      "genuine_excerpt_seconds": [
+        15,
+        45
+      ],
+      "clone_reference": {
+        "file": "assets/sources/REF_Female_Indian.wav",
+        "source_seconds": [
+          20,
+          32
+        ],
+        "sha256": "8fe558f9fec433815c3310a4e8509cf0746a3b6c93e339a357327625b059afd8"
+      },
+      "clone_voice_generation": {
+        "identity_type": "Cloned",
+        "person": "Netha Hussain",
+        "reference": "assets\\sources\\REF_Female_Indian.wav",
+        "gender": "Female",
+        "accent_target": "Indian",
+        "accent_verified": false,
+        "model": "ResembleAI/chatterbox",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20262009,
+        "raw_duration": 24.52,
+        "atempo": 0.8173333333333334,
+        "duration": 30,
+        "elapsed_seconds": 15.10079050064087,
+        "watermark": "Built-in Perth watermark retained in generated audio; survival after processing not verified"
+      },
+      "synthetic_voice_generation": {
+        "identity_type": "Fully synthetic",
+        "gender": "Female",
+        "accent_target": "Indian",
+        "accent_verified": false,
+        "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+        "reference_person": null,
+        "instruction": "An adult female speaking English with a clearly recognizable Indian English accent. Calm natural conversational delivery, medium pitch, clear pronunciation, moderate pace. Clean recording.",
+        "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+        "seed": 20261014,
+        "raw_duration": 25.28,
+        "atempo": 0.8426666666666667,
+        "duration": 30,
+        "elapsed_seconds": 52.5140962600708
+      },
+      "invented_portrait": {
+        "file": "assets/synthetic/SYN_Female_Indian.png",
+        "sha256": "867182df8f1878a88d3d5bd0d46048c502c885b3cc568c5c3a566111a6194947",
+        "prompt_record": {
+          "prompt": "Photorealistic fictional adult woman, age around 40, medium brown skin, dark brown hair tied back, muted plum collared blouse. Invent an entirely new person, not resembling any named real person. Centered front-facing webcam interview portrait, eyes toward camera, lips naturally closed, no glasses, softly lit home office background. Head and shoulders visible with ample space around head. Landscape 16:9. Neutral relaxed expression. No text or watermark.",
+          "identity": "invented",
+          "accent": "voice target only; not inferred from appearance"
+        }
+      },
+      "masters": {
+        "Genuine": {
+          "file": "assets/masters/GEN_F_Indian.mp4",
+          "sha256": "c6fd5b6d0025feac8b183f2d85385341f23bd0e48936e86beda8d0ede6a52a08",
+          "generation_record": {
+            "gender": "Female",
+            "accent": "Indian",
+            "source": "netha_hussain_original.ogv",
+            "person": "Netha Hussain",
+            "start": 15,
+            "test_start": 28,
+            "identity_type": "Genuine",
+            "changes": "30-second trim, resize/pad, fps conversion and re-encoding; original face and voice retained",
+            "accent_review": "candidate assignment; listening review pending"
+          }
+        },
+        "Cloned": {
+          "file": "assets/masters/CLN_Female_Indian.mp4",
+          "sha256": "78576ede795dc24d32788c41a7d57b94e495c41cbe11d23665f47ecdd3f9bf46",
+          "generation_record": {
+            "source": "assets\\masters\\GEN_F_Indian.mp4",
+            "audio": "assets\\cloned\\voices\\CLN_Female_Indian.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 102.95637702941895,
+            "status": "generated; visual/playback QA required",
+            "still_source": false,
+            "face_mask_cache": false
+          }
+        },
+        "Fully synthetic": {
+          "file": "assets/masters/SYN_Female_Indian.mp4",
+          "sha256": "aa02b1224c00c1164716531b04820677f8c06bc5c5471c792c17e89c11afc231",
+          "generation_record": {
+            "source": "assets\\synthetic\\SYN_Female_Indian.png",
+            "audio": "assets\\synthetic\\voices\\SYN_Female_Indian.wav",
+            "generator": "TMElyralab/MuseTalk 1.5",
+            "face_localization": "OpenCV Haar detector with smoothed boxes",
+            "frames": 750,
+            "fps": 25,
+            "elapsed_seconds": 75.39011979103088,
+            "status": "generated; visual/playback QA required",
+            "still_source": true,
+            "face_mask_cache": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "test_id": "T28",
+          "file": "videos/T28_Genuine_Female_Indian_Good.mp4",
+          "sha256": "bb165c0ef359c7ec239ee6330bdec6969cf67ece830a0d8f00a51acc2a969f1f",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T29",
+          "file": "videos/T29_Genuine_Female_Indian_Patchy.mp4",
+          "sha256": "2253e5964eeccc7cfa37dd32303b70435ae59db2ae755e9ff6d185e4a678b008",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T30",
+          "file": "videos/T30_Genuine_Female_Indian_Degraded.mp4",
+          "sha256": "706ec6db84651eca0809296d72374da086966ea97a34825d4ee65c09e00a8f41",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T58",
+          "file": "videos/T58_Cloned_Female_Indian_Good.mp4",
+          "sha256": "2ee7b27ffc55378d4b7fced978333fd6f71b7684d41878453d99546110939df9",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T59",
+          "file": "videos/T59_Cloned_Female_Indian_Patchy.mp4",
+          "sha256": "b66f3cd3dcb02350fe70d29c69fe6c9dc13f214e91cabfcefab50810ac6b017e",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T60",
+          "file": "videos/T60_Cloned_Female_Indian_Degraded.mp4",
+          "sha256": "ce46503ef31851b087cb28f51c941bf6c890c3112600689c3318c1e6c7f7c690",
+          "profile": "Degraded"
+        },
+        {
+          "test_id": "T88",
+          "file": "videos/T88_Synthetic_Female_Indian_Good.mp4",
+          "sha256": "553f020946e47e1ec8dd0613bf1f10818175e573c4adb7fca8b89273fb086b63",
+          "profile": "Good"
+        },
+        {
+          "test_id": "T89",
+          "file": "videos/T89_Synthetic_Female_Indian_Patchy.mp4",
+          "sha256": "bed7789a5f83b9238001ebc9ebede08199a2eafa0bf761938e09679116bc7933",
+          "profile": "Patchy"
+        },
+        {
+          "test_id": "T90",
+          "file": "videos/T90_Synthetic_Female_Indian_Degraded.mp4",
+          "sha256": "59e14933b5f2b0f0f8a5d696f2934f948f20a011f9a9ebfcbf2ad77346850645",
+          "profile": "Degraded"
+        }
+      ]
+    }
+  ]
+}

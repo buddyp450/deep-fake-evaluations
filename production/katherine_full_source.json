@@ -1,0 +1,118 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "48215225": {
+        "pageid": 48215225,
+        "ns": 6,
+        "title": "File:Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 22567664,
+            "width": 480,
+            "height": 272,
+            "duration": 255.739,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resisting_Internet_Censorship-_Katherine_Maher_of_Access_at_SHARE_Beirut.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48215225",
+            "sha1": "5a4dd2c0f890f8783f8940271e9079cec0caa73b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-04-16 11:43:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Resisting Internet Censorship- Katherine Maher of Access at SHARE Beirut",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Media from YouTube|Files from external sources with reviewed licenses|Files with coordinates missing SDC location of creation|Katherine Maher in 2012|Share Conference|Videos of Katherine Maher",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "33.888600",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "35.495500",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/en:Wamda\" class=\"extiw\" title=\"w:en:Wamda\">Wamda</a> interview with <a href=\"https://en.wikipedia.org/wiki/en:Katherine_Maher\" class=\"extiw\" title=\"w:en:Katherine Maher\">Katherine Maher</a> working for <a href=\"https://en.wikipedia.org/wiki/en:AccessNow.org\" class=\"extiw\" title=\"w:en:AccessNow.org\">Access Now</a> at the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.shareconference.net/sh/content-type/talk?tags=share-beirut-2012\">SHARE 2012 conference</a> in Beirut",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-10-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=VM3OPNwGOFg\">YouTube</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/en:Wamda\" class=\"extiw\" title=\"w:en:Wamda\">Wamda</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This file, which was originally posted to\n<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=VM3OPNwGOFg\">YouTube</a>, was reviewed on 16 April 2016 by <a href=\"//commons.wikimedia.org/wiki/Commons:License_review#Reviewers\" title=\"Commons:License review\">reviewer</a> <b><a href=\"//commons.wikimedia.org/wiki/User:INeverCry\" title=\"User:INeverCry\">INeverCry</a></b>, who confirmed that it was available there under the stated license on that date.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

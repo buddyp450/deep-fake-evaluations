@@ -1,0 +1,13 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const html=fs.readFileSync('output/Review_Test_Pack.html','utf8');
+const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+new vm.Script(script);
+const source=script.match(/function assessment\(c,o\)\{[\s\S]*?(?=\nfunction filtered)/)[0];
+const f=vm.runInNewContext('('+source+')');
+const g={identity_type:'Genuine',expected:['Not fake']},s={identity_type:'Cloned',expected:['Fake','Inconclusive']};
+assert.equal(f(g,'Fake'),'False positive');assert.equal(f(g,'Not fake'),'Expected');assert.equal(f(g,'Inconclusive'),'Unexpected inconclusive');
+assert.equal(f(s,'Fake'),'Expected');assert.equal(f(s,'Not fake'),'False negative');assert.equal(f(s,'Inconclusive'),'Allowed: inconclusive');assert.equal(f(s,'Run error'),'Run error');
+const cases=JSON.parse(fs.readFileSync('output/asset_manifest.json')).cases;
+assert.equal(cases.length,90);assert.equal(new Set(cases.map(c=>c.test_id)).size,90);
+for(let i=1;i<=90;i++)assert(cases.some(c=>c.test_id==='T'+String(i).padStart(2,'0')));
+console.log('Review script syntax, outcome classification and 90-case identity checks passed. Browser controls not tested.');

@@ -1,0 +1,16 @@
+{
+  "method": "Visual inspection of contact-sheet frames at 5 and 20 seconds per master",
+  "genuine": {
+    "masters_reviewed": 10,
+    "status": "No missing subject observed in sampled frames; source quality varies"
+  },
+  "fully_synthetic": {
+    "masters_reviewed": 10,
+    "status": "Faces and generated mouth region visible; head/body outside animated area remain still"
+  },
+  "cloned": {
+    "masters_reviewed": 10,
+    "status": "Intended subjects and mouth regions visible in sampled frames; no missing face or blank sampled frame observed. Lighting, microphone occlusion and source resolution vary."
+  },
+  "limitations": "Sampled frames do not establish continuous lip synchronization, absence of transient artifacts, accent or detector performance."
+}

@@ -1,0 +1,167 @@
+{
+  "method": "Whisper tiny automatic transcription of generated 30-second speech",
+  "limitation": "Transcription differences may be recognition errors or generation errors. This does not verify accent, voice likeness, naturalness or audiovisual synchronization.",
+  "script": "Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+  "files": [
+    {
+      "file": "SYN_Female_American.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Female_Indian.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Female_UK-British.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Female_UK-Irish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions. A agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 1,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Female_UK-Scottish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Male_American.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Male_Indian.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Male_UK-British.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Male_UK-Irish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "SYN_Male_UK-Scottish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Female_UK-British.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps in the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 1,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Female_UK-Irish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Male_American.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Male_Indian.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Male_UK-British.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will repair a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 1,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Male_UK-Irish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions. A degree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 2,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Male_UK-Scottish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today, we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Female_American.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities, and confirm who will take responsibility for each item. After the meeting, I will prepare brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 1,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Female_Indian.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    },
+    {
+      "file": "CLN_Female_UK-Scottish.wav",
+      "start_seconds": 0,
+      "transcript": " Thank you for making time for this meeting. I would like to begin with a short update on the project. We have finished the initial review and collected the information needed for the next stage. Today we can discuss the outstanding questions, agree on the order of the remaining activities and confirm who will take responsibility for each item. After the meeting, I will prepare a brief summary so that everyone has the same understanding of the next steps and the expected schedule.",
+      "method": "Whisper tiny automatic transcript; not a listening or accent verification",
+      "word_edit_distance_vs_script": 0,
+      "reference_word_count": 83
+    }
+  ]
+}

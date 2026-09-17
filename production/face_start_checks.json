@@ -1,0 +1,111 @@
+[
+  {
+    "file": "GEN_F_American.mp4",
+    "boxes_xywh": []
+  },
+  {
+    "file": "GEN_F_Indian.mp4",
+    "boxes_xywh": [
+      [
+        420,
+        92,
+        356,
+        356
+      ]
+    ]
+  },
+  {
+    "file": "GEN_F_UK-British.mp4",
+    "boxes_xywh": [
+      [
+        574,
+        224,
+        136,
+        136
+      ]
+    ]
+  },
+  {
+    "file": "GEN_F_UK-Irish.mp4",
+    "boxes_xywh": [
+      [
+        578,
+        150,
+        312,
+        312
+      ]
+    ]
+  },
+  {
+    "file": "GEN_F_UK-Scottish.mp4",
+    "boxes_xywh": [
+      [
+        346,
+        170,
+        308,
+        308
+      ]
+    ]
+  },
+  {
+    "file": "GEN_M_American.mp4",
+    "boxes_xywh": [
+      [
+        356,
+        178,
+        308,
+        308
+      ]
+    ]
+  },
+  {
+    "file": "GEN_M_Indian.mp4",
+    "boxes_xywh": [
+      [
+        212,
+        576,
+        136,
+        136
+      ],
+      [
+        594,
+        122,
+        228,
+        228
+      ]
+    ]
+  },
+  {
+    "file": "GEN_M_UK-British.mp4",
+    "boxes_xywh": [
+      [
+        540,
+        188,
+        298,
+        298
+      ]
+    ]
+  },
+  {
+    "file": "GEN_M_UK-Irish.mp4",
+    "boxes_xywh": [
+      [
+        440,
+        144,
+        242,
+        242
+      ]
+    ]
+  },
+  {
+    "file": "GEN_M_UK-Scottish.mp4",
+    "boxes_xywh": [
+      [
+        212,
+        222,
+        412,
+        412
+      ]
+    ]
+  }
+]

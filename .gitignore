@@ -1,0 +1,16 @@
+.venv*/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+models/
+tools/
+assets/
+tmp/
+output/videos/
+*.zip
+Synthetic_Identity_Results*.json
+
+# Local working notes and archives
+local-notes/

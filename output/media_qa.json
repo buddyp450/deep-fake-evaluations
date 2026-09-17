@@ -1,0 +1,906 @@
+{
+  "scope": "Technical validation only; no listening review or detector execution",
+  "checked": 90,
+  "files": [
+    {
+      "file": "T01_Genuine_Male_UK-Irish_Good.mp4",
+      "sha256": "879bac4a15b5cb0992f944c94c693758713ab3ce0728677ef19c48505265da96",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T02_Genuine_Male_UK-Irish_Patchy.mp4",
+      "sha256": "c41df5b2a930e774b13af80e3b6b2546c77ae95c15e6df51c2c8aa3471b81a38",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T03_Genuine_Male_UK-Irish_Degraded.mp4",
+      "sha256": "c693fded2f0669d99b591ff1f680a2c186f27007fe4929fd4dac85ff35f2da6b",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T04_Genuine_Male_UK-British_Good.mp4",
+      "sha256": "689c5de5d447484c2fedf48b1ce1010c7981291620037bc77466885d49fa532a",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T05_Genuine_Male_UK-British_Patchy.mp4",
+      "sha256": "7446d6f2ae4ab5b423bc70a3f46624252e1db64641c6cacae644218f5fdbf17f",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T06_Genuine_Male_UK-British_Degraded.mp4",
+      "sha256": "ada303a8132b52ea221f9a970c61c3480988d241de7efadc1669f02b1930ed9a",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T07_Genuine_Male_UK-Scottish_Good.mp4",
+      "sha256": "e5edc563e5385b99e45a11ffc14df78f1fb47f283ff8aea686880d17c0357f80",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T08_Genuine_Male_UK-Scottish_Patchy.mp4",
+      "sha256": "b5be6c023f6f9369db47a3be054b01a4a5f30ab7109ae091133b574e4ffc6ce3",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T09_Genuine_Male_UK-Scottish_Degraded.mp4",
+      "sha256": "740c706bf1184684c99064b38cc75d19a498eeb136a4f68a535e2db96bb18a28",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T10_Genuine_Male_American_Good.mp4",
+      "sha256": "1d4ba61b06ce8edd9574634fe2b55e41f053e058d8cf9ab0d6d073fd3208e7a1",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T11_Genuine_Male_American_Patchy.mp4",
+      "sha256": "f06d9e0b1b052f27294731420a6533ef2d971fc4496e41d22eaee0b60bde9587",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T12_Genuine_Male_American_Degraded.mp4",
+      "sha256": "4d5bf7dbf4aa9cbed8596f51f077bf33248c9580d9624c5ae8101efbfbfe4d70",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T13_Genuine_Male_Indian_Good.mp4",
+      "sha256": "fd231caf621c0e335166b383f707a9d4d85e833e80e1f23f19426e298d55b1b9",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T14_Genuine_Male_Indian_Patchy.mp4",
+      "sha256": "c88d39605e5fe47451bc097671e4010b042da7c0a6fad399f51033c4bee59cb2",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T15_Genuine_Male_Indian_Degraded.mp4",
+      "sha256": "0e88a06499c129933a458f585150e632907b7d2334a63e509d292047234e0fd4",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T16_Genuine_Female_UK-Irish_Good.mp4",
+      "sha256": "28bd56cbdedf4ba84c6b9e991af2b829ebb019c986c331707de7f54247915fc7",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T17_Genuine_Female_UK-Irish_Patchy.mp4",
+      "sha256": "6284ecfa3a8b7e6ef62175de7aaf64c97f92fd69685cf6177367f6dec1743c6f",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T18_Genuine_Female_UK-Irish_Degraded.mp4",
+      "sha256": "7339691fd44ee71c6f391c763df47843599d2fe844efec22dcaa6051062b9e98",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T19_Genuine_Female_UK-British_Good.mp4",
+      "sha256": "8eb37318e1c1e9d9ced457b3e307b4fdf02d6d49dbf50f09f277a8d06f968f2a",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T20_Genuine_Female_UK-British_Patchy.mp4",
+      "sha256": "5ca00cd5bf97e5cf4b762c710be9a5ce8932193962b30b78b345f3552a16323f",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T21_Genuine_Female_UK-British_Degraded.mp4",
+      "sha256": "c26f5202409bea7c4b5c70e139f220c022db9f50c7fc50a9cb8ab6a1e6e839fc",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T22_Genuine_Female_UK-Scottish_Good.mp4",
+      "sha256": "6b3c1f1f22951d414225219cc4fde74bbf58f3fed92e19bcc532f77a45332799",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T23_Genuine_Female_UK-Scottish_Patchy.mp4",
+      "sha256": "3299e9768b1b5072eb609bea9955f0bacd65ff7ed9b005f124f73491cf043c35",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T24_Genuine_Female_UK-Scottish_Degraded.mp4",
+      "sha256": "2d257433cd9a24ab4d55c2bf2bab5fc2a7c41c67142807f6257c8a0e70dd7b34",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T25_Genuine_Female_American_Good.mp4",
+      "sha256": "87381f7eb04876a3831cd2d7598729a789261abc48e8c5e2296d676a0f23d121",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T26_Genuine_Female_American_Patchy.mp4",
+      "sha256": "a0781d07a254f54df02350a7527666f13f1f3671c57491d5c234cf9a5f18dfae",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T27_Genuine_Female_American_Degraded.mp4",
+      "sha256": "6731579411b8230f5f4d14ce5e7ac2cfa2c7eb75693ea45f372ef07802daae81",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T28_Genuine_Female_Indian_Good.mp4",
+      "sha256": "bb165c0ef359c7ec239ee6330bdec6969cf67ece830a0d8f00a51acc2a969f1f",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T29_Genuine_Female_Indian_Patchy.mp4",
+      "sha256": "2253e5964eeccc7cfa37dd32303b70435ae59db2ae755e9ff6d185e4a678b008",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T30_Genuine_Female_Indian_Degraded.mp4",
+      "sha256": "706ec6db84651eca0809296d72374da086966ea97a34825d4ee65c09e00a8f41",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T31_Cloned_Male_UK-Irish_Good.mp4",
+      "sha256": "6c4af4fafa9689779e8bcf85e9a61e0d6b6f9f8b3c2b0cae5e6bf66a03b0889f",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T32_Cloned_Male_UK-Irish_Patchy.mp4",
+      "sha256": "16166f8cf4ffd0b6f835d145b52f3182c06df350462287d14a4dabf0d9ba9b90",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T33_Cloned_Male_UK-Irish_Degraded.mp4",
+      "sha256": "6551e40fc1d3d77ee2e95c7f79142ddf327dc28030d864b1c0e6f0768358b5a1",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T34_Cloned_Male_UK-British_Good.mp4",
+      "sha256": "fe484f0f085bd635f07e2e26150c11b885de0399c87a08f4a86aadb1b0deaa2f",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T35_Cloned_Male_UK-British_Patchy.mp4",
+      "sha256": "0a6e1594244172fc2d79ec93aa3658f8b67c231d3c76684a4040049c1ddcadc5",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T36_Cloned_Male_UK-British_Degraded.mp4",
+      "sha256": "a4aa54439755ae5ac6a6c06a8db7b8371c9c00817c1da3c0b68c7aa3965296b6",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T37_Cloned_Male_UK-Scottish_Good.mp4",
+      "sha256": "a2488d1f7e0dbc37fa9a5f1e771d6ffaf50483aef86f151c928a27772af5bf4a",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T38_Cloned_Male_UK-Scottish_Patchy.mp4",
+      "sha256": "4c4a545cd32f955bd20093b9563fa98e244ee278f5912ce5d178c7b1fee1331e",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T39_Cloned_Male_UK-Scottish_Degraded.mp4",
+      "sha256": "bcb3a1b902b6c5e7d1262410c6969aa2f0e0e247ab576c6970731ae52b39235c",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T40_Cloned_Male_American_Good.mp4",
+      "sha256": "aeeff4734497f3ac47d8baa61780a2761cf81ea1369f672e2fee5f2e0ef0ac16",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T41_Cloned_Male_American_Patchy.mp4",
+      "sha256": "9dcdafc41c586943db200a8452401ec86e9fe8c0ca6e173e690d9c2e68bc5f28",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T42_Cloned_Male_American_Degraded.mp4",
+      "sha256": "ef7b118d11e409a05f6d2a494c5a9e33cc28d69641f82da8cb3e9bc6c92fccee",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T43_Cloned_Male_Indian_Good.mp4",
+      "sha256": "26b7e9d3da35ec4f8e47fe48e733f4640450530840842ee166f8182643c4ad0d",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T44_Cloned_Male_Indian_Patchy.mp4",
+      "sha256": "e40c75ab30ab5b2e12639763516a89e0446a8f52dcba772992a8ebd46e1cb8db",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T45_Cloned_Male_Indian_Degraded.mp4",
+      "sha256": "8f6be23c05320e454a75d0cce7fef318a2be221ca8af6b844d08ad4bf6b41d8b",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T46_Cloned_Female_UK-Irish_Good.mp4",
+      "sha256": "a445d814bc888d423dfb3471687970c598beed9448700a2b935bbd3aa5c1b1fc",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T47_Cloned_Female_UK-Irish_Patchy.mp4",
+      "sha256": "c69c795cc3f65e07a400f107c27c40a5c1834bac5318fa7e1fae3f30b9e2a00a",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T48_Cloned_Female_UK-Irish_Degraded.mp4",
+      "sha256": "50a13a4b656dc42eb092ceda79bac7c5233c1c68ee797d1441aa088fc7d560ca",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T49_Cloned_Female_UK-British_Good.mp4",
+      "sha256": "3e9342228f388274a5580c9b22396d2bcfc8f5131675bc613b26bc4c8df1c2ca",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T50_Cloned_Female_UK-British_Patchy.mp4",
+      "sha256": "47b4148a4cc1686a16e2c4f87fa9c5d8b4fa1b41b619446c7c4fea74eb5c8688",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T51_Cloned_Female_UK-British_Degraded.mp4",
+      "sha256": "e44413f8501791ac36ac146471709b8bd966b70ecc36f43e0a7469dee3e2d17c",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T52_Cloned_Female_UK-Scottish_Good.mp4",
+      "sha256": "a604bfe6f8fccfab1fcb913c90812807714ae278bdeaa3626c5717fee3de95df",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T53_Cloned_Female_UK-Scottish_Patchy.mp4",
+      "sha256": "d86b82c6fbbfda597c8a18b7e1110c4f1bcefbfadeea454479a7b353a8d23757",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T54_Cloned_Female_UK-Scottish_Degraded.mp4",
+      "sha256": "23a7e736ada162297d463f98b6a98e0d3c455297ddb6b9b0db4af5c0fd521ca0",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T55_Cloned_Female_American_Good.mp4",
+      "sha256": "a0efb7766ea1cff877046456e70a15136307b0cd34c323bd9eb3b686514911ef",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T56_Cloned_Female_American_Patchy.mp4",
+      "sha256": "edc6910309b55ebf0a60169ce6f10cfef53cb1e5c3232f42d66620f08bfe1d48",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T57_Cloned_Female_American_Degraded.mp4",
+      "sha256": "b12eb8568c64389ba39b39c45770e90a4a91525dba3b7d43046720655c137a63",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T58_Cloned_Female_Indian_Good.mp4",
+      "sha256": "2ee7b27ffc55378d4b7fced978333fd6f71b7684d41878453d99546110939df9",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T59_Cloned_Female_Indian_Patchy.mp4",
+      "sha256": "b66f3cd3dcb02350fe70d29c69fe6c9dc13f214e91cabfcefab50810ac6b017e",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T60_Cloned_Female_Indian_Degraded.mp4",
+      "sha256": "ce46503ef31851b087cb28f51c941bf6c890c3112600689c3318c1e6c7f7c690",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T61_Synthetic_Male_UK-Irish_Good.mp4",
+      "sha256": "9a230e5e77e251c9fd900a988ae047730d589efe4d2335be407069e3a9b8209a",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T62_Synthetic_Male_UK-Irish_Patchy.mp4",
+      "sha256": "1dedea67d8d634c20a9ae7186116af09bf45aa2194c00d3f630173f50c6cd902",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T63_Synthetic_Male_UK-Irish_Degraded.mp4",
+      "sha256": "2cab8b799113e9d59c5523cb9ad782bad1718cd48028f6c9096438e28be52cdb",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T64_Synthetic_Male_UK-British_Good.mp4",
+      "sha256": "08cb7ab30a318f7a08002f8a0fbced661b39378495d8cdbfea33bf478e5de056",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T65_Synthetic_Male_UK-British_Patchy.mp4",
+      "sha256": "c71f702e74a5a368e14557c948b4ad30817e4c72c3b43f136a50fac1df7c6412",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T66_Synthetic_Male_UK-British_Degraded.mp4",
+      "sha256": "0e048275754ebecc1a6b0441983ae4f7083ceaf9ade76b95e717b3c468aaa7fb",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T67_Synthetic_Male_UK-Scottish_Good.mp4",
+      "sha256": "6b46fdbe5e44caf36e88bd98a08a07f96734bcec853049f847343990041503c8",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T68_Synthetic_Male_UK-Scottish_Patchy.mp4",
+      "sha256": "b8e1ffaa8f79aa21397c980f808ac54eeb589e9304c9cf26542c8aa1acaa60ff",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T69_Synthetic_Male_UK-Scottish_Degraded.mp4",
+      "sha256": "0dcd09ffc59cb5da4e98e4d93afe0eb1ad376b42ae0e8959ed1ad1d20afafe4a",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T70_Synthetic_Male_American_Good.mp4",
+      "sha256": "372c6b53b89f95591f1f66cdc44b6184fecf589786ea62c9f50573b31917fe0e",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T71_Synthetic_Male_American_Patchy.mp4",
+      "sha256": "9e0d0caee41c99c58779a3330a91523abe9cd37e243919682fbdab0aa4a9a03e",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T72_Synthetic_Male_American_Degraded.mp4",
+      "sha256": "b48a130031a342015e467bc50e0a73b23317f29a3ea50a03e4a131953267d978",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T73_Synthetic_Male_Indian_Good.mp4",
+      "sha256": "3b2e1df27f975c8b74b3d1174d399f1e3e3bf6e9487f185629d6e81d52ef95d8",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T74_Synthetic_Male_Indian_Patchy.mp4",
+      "sha256": "1f7a983ca18d49d03db9f92352131f8375168e7eb6bdc5372d69542bc78afcf8",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T75_Synthetic_Male_Indian_Degraded.mp4",
+      "sha256": "1cb4880ca07e658eb16a21b418645925eed5d3fa35c107e518d5bf807c2403e1",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T76_Synthetic_Female_UK-Irish_Good.mp4",
+      "sha256": "695df78859350b0a64e07254b81b9479b877ea2b4ecd8b378727fc44cdac3c91",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T77_Synthetic_Female_UK-Irish_Patchy.mp4",
+      "sha256": "bf8507650a7a9cb5425815bbbc524c3568c80d3b8b20bdd3a93d2fbc001ec9a9",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T78_Synthetic_Female_UK-Irish_Degraded.mp4",
+      "sha256": "9cf112bcd7bc66ceda0fd10c8d01b8f2215a97ac9b8f6e4babfb9e3df105ff2c",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T79_Synthetic_Female_UK-British_Good.mp4",
+      "sha256": "f908239d14f69d56aadb5f068945df1b202908a98066764bc997497c0ce7d2fe",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T80_Synthetic_Female_UK-British_Patchy.mp4",
+      "sha256": "614ab76fd6fb1ec02eb08f935f2743ff11dff098d821f1fb97a03699d676d411",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T81_Synthetic_Female_UK-British_Degraded.mp4",
+      "sha256": "f1accb93fd7e1c85adf896882d8ee7d6857c99fedffea1db881d686481a91166",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T82_Synthetic_Female_UK-Scottish_Good.mp4",
+      "sha256": "ee62ec14f1afde23e3cc312bbb2a76b024896960d754821ef503d62860d2c6ae",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T83_Synthetic_Female_UK-Scottish_Patchy.mp4",
+      "sha256": "7f20d673aa331e92eb32dafaebb0e0b2671ee2ae07064e4ac77f908f3db1be34",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T84_Synthetic_Female_UK-Scottish_Degraded.mp4",
+      "sha256": "a943824c06b12343c76d49f77ca51f9da6432d421dfc9bfcbaf35176d4b56cdc",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T85_Synthetic_Female_American_Good.mp4",
+      "sha256": "0e26904d4fe6ff227dc0f1d8c916a495f9c6ea6e1a060517596bd2f5d58b03f2",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T86_Synthetic_Female_American_Patchy.mp4",
+      "sha256": "0e6670ae01bf64988f4668d1f780e5f5663b0a97ad71862f758e7d22d7ff407a",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T87_Synthetic_Female_American_Degraded.mp4",
+      "sha256": "683d568ddf5e14143462451d3813613aca06bda768b5f7b62e67089bb28dc12d",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T88_Synthetic_Female_Indian_Good.mp4",
+      "sha256": "553f020946e47e1ec8dd0613bf1f10818175e573c4adb7fca8b89273fb086b63",
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "30/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T89_Synthetic_Female_Indian_Patchy.mp4",
+      "sha256": "bed7789a5f83b9238001ebc9ebede08199a2eafa0bf761938e09679116bc7933",
+      "duration_seconds": 30.0,
+      "width": 854,
+      "height": 480,
+      "fps": "15/1",
+      "full_decode_ok": true,
+      "issues": []
+    },
+    {
+      "file": "T90_Synthetic_Female_Indian_Degraded.mp4",
+      "sha256": "59e14933b5f2b0f0f8a5d696f2934f948f20a011f9a9ebfcbf2ad77346850645",
+      "duration_seconds": 30.0,
+      "width": 640,
+      "height": 360,
+      "fps": "10/1",
+      "full_decode_ok": true,
+      "issues": []
+    }
+  ]
+}

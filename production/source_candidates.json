@@ -1,0 +1,487 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "29777605": {
+        "pageid": 29777605,
+        "ns": 6,
+        "title": "File:Interview Netha Hussain.ogv",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 37480195,
+            "width": 1280,
+            "height": 720,
+            "duration": 322.581768707483,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Interview_Netha_Hussain.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interview_Netha_Hussain.ogv",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29777605",
+            "sha1": "f96ac83ce42d115c993ca8fe61eafa504dd24a79",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-11-22 17:56:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Interview Netha Hussain",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Netha Hussain|Ogv videos|Video display resolution 1280 x 720|Wikimedia Diversity Conference 2013 Videos",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Wikimedia Diversity Conference, 9 &amp; 10 November 2013, Berlin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-11-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Wikimedia Diversity Conference 2013",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Wikimedia Deutschland (WMDE)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "134132808": {
+        "pageid": 134132808,
+        "ns": 6,
+        "title": "File:Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 303345754,
+            "width": 1280,
+            "height": 720,
+            "duration": 382.069,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Interview_with_a_Tom_McConn_of_Hollygrove%2C_County_Galway%2C_Ireland_in_2018.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interview_with_a_Tom_McConn_of_Hollygrove,_County_Galway,_Ireland_in_2018.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=134132808",
+            "sha1": "1826bb1a36c799f271be95f0fdb91850c0e7c5be",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-07-08 16:38:02",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hollygrove, County Galway|Coalpits, County Galway|Uploaded with video2commons|Videos by Richard Arthur Norton",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Interview with a Tom McConn of Hollygrove, County Galway, Ireland in 2018",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q73707267\" class=\"extiw\" title=\"d:Q73707267\"><span title=\"American scientist, amateur photographer\">Richard Arthur Norton</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q73707267\" class=\"extiw\" title=\"d:Q73707267\"><span title=\"American scientist, amateur photographer\">Richard Arthur Norton</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "58557175": {
+        "pageid": 58557175,
+        "ns": 6,
+        "title": "File:WIKITONGUES- Christine speaking Shetlandic.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 260996643,
+            "width": 1920,
+            "height": 1080,
+            "duration": 553.171,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/WIKITONGUES-_Christine_speaking_Shetlandic.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Christine_speaking_Shetlandic.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58557175",
+            "sha1": "09777981817ec112abb3be735bbc1b1e2c97bc8a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-05-06 23:41:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "WIKITONGUES- Christine speaking Shetlandic",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "People of the Shetland Islands|Media from YouTube|Files from external sources with reviewed licenses|Images with extracted images|Uploaded with video2commons|Wikitongues videos in Scots",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Speaks Shetlandic starting at 8 minutes. Uploaded in Edinburgh, Scotland.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-09-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=m0EwquC6wBU\"><bdi lang=\"\">WIKITONGUES: Christine speaking Shetlandic</bdi></a> \u2013 View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=m0EwquC6wBU\">archive.org</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Christine de Luca",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Wikitongues",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "58797530": {
+        "pageid": 58797530,
+        "ns": 6,
+        "title": "File:WIKITONGUES- David speaking Doric Scots and English.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 143435497,
+            "width": 1920,
+            "height": 1080,
+            "duration": 416.151,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_David_speaking_Doric_Scots_and_English.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58797530",
+            "sha1": "3e94577b98bfe4f2805b3768fdcc2604bca63af3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-05-12 03:24:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "WIKITONGUES- David speaking Doric Scots and English",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Media from YouTube|Files from external sources with reviewed licenses|Uploaded with video2commons|Video display resolution 1920 x 1080|Wikitongues videos in English|Wikitongues videos in Scots",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Uploaded in Edinburgh, Scotland.\n<p>Get a free Scots lesson with italki: <a rel=\"nofollow\" class=\"external free\" href=\"http://promos.italki.com/wikitongues_sco\">http://promos.italki.com/wikitongues_sco</a>\n</p>\nGet a free English lesson with italki: <a rel=\"nofollow\" class=\"external free\" href=\"http://promos.italki.com/wikitongues_eng\">http://promos.italki.com/wikitongues_eng</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-09-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=le3cBRlWSE8\"><bdi lang=\"\">WIKITONGUES: David speaking Doric Scots and English</bdi></a> \u2013 View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=le3cBRlWSE8\">archive.org</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/WikiTongues\">Wikitongues</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Wikitongues",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57592940": {
+        "pageid": 57592940,
+        "ns": 6,
+        "title": "File:WIKITONGUES- Simon speaking Cumbrian.webm",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 14685459,
+            "width": 1280,
+            "height": 720,
+            "duration": 181.699,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/WIKITONGUES-_Simon_speaking_Cumbrian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:WIKITONGUES-_Simon_speaking_Cumbrian.webm",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57592940",
+            "sha1": "e197b55bdcf77c18e63f4fb273ec549ae3e0d0fd",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-03-31 21:16:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "WIKITONGUES- Simon speaking Cumbrian",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Media from YouTube|Files from external sources with reviewed licenses|Uploaded with video2commons|Wikitongues videos in English",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cumbrian is a local Northern English dialect spoken in Cumbria and surrounding northern England.\n<p>Transcription and translation provided by\nEy-up - my nyam is Simon Roper, and aa's of Cumbrian descent.\nT'dialect is a sort o' combinyation o' norse, auld english, pictish\u2026 the can lin twi it an' modern norwegian. Sa we say 'gan yam' for 'go home', awivver a norwegian wad say 'go hjeme.'\nS'anyway - when we were bairns - weh and t'marras - we used to gan t'Ullswatter, and t'were snaatan a la'al bit at yan tyem, but t'watter'd nae frostit owwer as't does on t'occyasion. Awivvwer, t'were gae cald, and t'were glisky and o', sa we wore t'kyvals. Nae gev us mek gran' fettle on t'shore. Yan of us, Danny, fell in t'watter an' brayed his sel. Were hareet, tha. N'owt mek wad strike him doon. T'were creukt, cos - yon tyem o' year - t'were february or summat - t'were attercoppen ivvery which way the deek't. An' yan marra - Hilde - se were flaitent o't'. Sa\u2026 aa nivver sin a body run sa fast in o' weh leyfe. But t'were yan o' t'last tyem we speeakt cummerlan wid ithers. Acause the were nae supposed to speeak it as a bairn. The were supposed to speeak 'english.' Sa\u2026 well, yon were a hard'un. T'is shaff fettle, o' cowse, 'at\u2026 sa many\u2026 British dialects are gettan sa rare an' la'al. Aa hope they gan on, or t'would be a gran' sheame.\nAnyway, w'ither marra, Burne, he's a gyamkeaper, works wid\u2026 gorcock. He tell'd us a tyal yence; there were a standan lin an' a shiftan lin, an' yan man fr'each shot at yan gorcock at t'seame teame\u2026 an t'bloody thing exploded! An' they nivver foond t'carcass. Sa he helle his sel a cup o' tea, an' that were that. An' yon's what the has to keep in mind! Pragmatism. Gettan summat done reet. If it take yan or tyan or tethera tyem, gettan summat done reet. Yence the can nae chyange fettle, div nut worry. Aa thowt sek a thing sin aa were sethera. An aa nivver been mizzlan sin.\n</p><p>Optional Translations: (Standard English) - Hello - my name is Simon Roper, and I'm of Cumbrian descent.\nThe dialect is a sort of combination of norse, old english, pictish\u2026 you can draw parallels between it and modern norwegian. So we say 'gan yam' for 'go home,' whereas a norwegian would say 'go hjeme.' When we were children - me and my friends - we used to go to Ullswater, and it was snowing a little bit on one occasion, but the lake hadn't quite frozen over as it sometimes does. However, it was very cold and sparkling, so we wore great-coats. It didn't give us much luck on the shore; one of us, Danny, fell in the water and bruised himself. He was alright, though. Not much would strike him down. It was strange, because at that time of year - it was february, or something - there were spiders everywhere you looked. And one of my friends - Hilde - she was frightened of them. So\u2026 I've never seen a person run so fast in all my life. It's bad luck, of course, that so many British dialects are getting so rare and small. I hope they survive, or it would be a great shame.\n</p>\nAnyway, my other friend, Burne, he's a gamekeeper, works with grouse. He told me a story once; there was a standing line and a moving line, and one man from each shot at one grouse at the same time. And the bloody thing exploded! And they never found the carcass. So he poured himself a cup of tea and that was that. And that's what you have to keep in mind! Pragmatism. Getting something done right. If it takes one or two or three times, getting something done right. When you can't change something, don't worry. I have thought this since I was six, and I haven't been upset since.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-08-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=ofWA7ERRwzs\"><bdi lang=\"\">WIKITONGUES: Simon speaking Cumbrian</bdi></a> \u2013 View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=ofWA7ERRwzs\">archive.org</a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/WikiTongues\">Wikitongues</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Wikitongues",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
