@@ -1,6 +1,6 @@
 # Synthetic Identity test pack
 
-Extract the entire ZIP first, then double-click **Start_Test_Bed.cmd**. It starts a local server and opens the test bed in your default browser. You can open **http://127.0.0.1:8769/** in Chrome or Edge while that server is running. Python 3 is required; the launcher automatically finds the installed project or bundled runtime on this machine. Keep the videos folder alongside the HTML page. No internet upload is involved; the server binds only to this computer.
+Clone the repository, then download **Synthetic_Identity_Assets.zip** from the latest GitHub release and extract it into the repository's **output** folder. It adds only the ignored videos and their metadata, leaving tracked files untouched. With Python 3 installed, double-click **Start_Test_Bed.cmd** in output/. Open **http://127.0.0.1:8769/** in Chrome or Edge while the local server runs. The server binds only to this computer.
 
 The player now explicitly loads each selected clip and provides Play / pause, Restart, Reload video, and visible loading/error messages. Previous/Next follows the selected filters. If the video fails, use its Open video file link and check that the complete videos folder was extracted. The original reported Chrome/Edge failure was not reproduced; browser verification used the local server in the available Chromium-based in-app browser.
 

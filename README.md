@@ -4,15 +4,26 @@ A 90-case working test pack for evaluating genuine, cloned and fully synthetic i
 
 ## Download and run
 
-1. Open [Releases](https://github.com/buddyp450/deep-fake-evaluations/releases) while signed into an account with access to this private repository.
-2. Download **Synthetic_Identity_Test_Pack.zip** from the release's Assets list. GitHub's automatically generated **Source code** ZIP does not contain the 90 videos.
-3. Extract the entire test-pack ZIP into a local folder, preserving its structure.
-4. With Python 3 installed, double-click **Start_Test_Bed.cmd**. Open http://127.0.0.1:8769/ in Chrome or Edge. If the launcher cannot find Python, run `python serve_test_bed.py --open` from the extracted folder.
-5. Review the clips and read **START_HERE.md** before running them through OBS/Teams. OBS Virtual Camera carries video; media audio needs its own meeting audio route.
+1. Clone this repository, or update an existing checkout with `git pull --ff-only` after reviewing local changes.
+2. Open [the latest release](https://github.com/buddyp450/deep-fake-evaluations/releases/latest) and download **Synthetic_Identity_Assets.zip**.
+3. Extract it into the repository's **output** folder. It contains only `videos/`: 90 MP4s and 90 metadata files. Tracked UI, code and documentation are not included or overwritten.
+4. With Python 3 installed, run **output/Start_Test_Bed.cmd**, or `python output/serve_test_bed.py --open` from the repository root. Open http://127.0.0.1:8769/.
+5. Read **output/START_HERE.md** before running the clips through OBS/Teams. Meeting audio needs its own route; OBS Virtual Camera carries video only.
+
+With GitHub CLI installed, from the repository root:
+
+```powershell
+gh release download v1.0.1 --pattern "Synthetic_Identity_Assets.zip"
+Expand-Archive .\Synthetic_Identity_Assets.zip -DestinationPath .\output -Force
+```
+
+This asset ZIP requires the repository; it is not a standalone app. GitHub's automatic Source code archives do not contain videos.
+
+If you already extracted the old full pack, the videos are unchanged and need no redownload. Inspect `git diff -- output/`; only if you have no changes of your own there, use `git restore --source=HEAD --worktree -- output/` to restore tracked files. Ignored videos remain untouched.
 
 No GPU, generation model, or internet connection is needed to play the downloaded videos. The local server binds only to 127.0.0.1 and serves an explicit list of pack files.
 
-The release also includes a SHA256 checksum file. In PowerShell, compare it with `Get-FileHash .\Synthetic_Identity_Test_Pack.zip -Algorithm SHA256`.
+The release also includes a SHA256 checksum file. In PowerShell, compare it with `Get-FileHash .\Synthetic_Identity_Assets.zip -Algorithm SHA256`.
 
 ## Contents
 
